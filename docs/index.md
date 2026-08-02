@@ -2,7 +2,7 @@
 
 **Crypto Security Penetration Testing Framework**
 
-CSPTF `0.1.0-draft` is a foundational, Spanish-first public draft for authorized assessment of digital-asset systems.
+CSPTF `0.1.0-draft` is a foundational bilingual public draft for authorized assessment of digital-asset systems, with English repository navigation and Spanish publication artifacts.
 
 ## Included
 

@@ -1,6 +1,6 @@
 # CSPTF 0.1.0-draft
 
-Foundational Spanish-first draft.
+Foundational bilingual draft with English repository navigation and Spanish publication artifacts.
 
 ## Release assets
 

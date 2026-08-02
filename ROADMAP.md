@@ -9,9 +9,9 @@
 - initial crosswalks, templates, schemas and validators;
 - Spanish paper and publication package.
 
-## v0.2 - Review and translation
+## v0.2 - Bilingual review
 
-- English normative translation;
+- harmonized English and Spanish normative text;
 - expert review panels for smart contracts, custody, DeFi, bridges, CEX and infrastructure;
 - validated AADAPT/ATT&CK technique-level mappings;
 - test selection decision trees;

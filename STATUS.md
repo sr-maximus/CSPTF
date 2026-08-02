@@ -3,7 +3,7 @@
 - Release: `0.1.0-draft`
 - Date: 2026-07-31
 - Maturity: foundational draft
-- Normative language: Spanish
+- Languages: bilingual repository; Spanish publication artifacts
 - Certification status: none
 - Catalog validation: automated structural validation included
 - Empirical validation: planned through expert review, case studies and inter-rater calibration

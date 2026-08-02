@@ -98,7 +98,12 @@ CSPTF is for systems you own or are explicitly authorized to test. Production-ac
 
 ## Language
 
-The normative draft is currently **Spanish-first**. An English normative translation is planned for v0.2. The repository structure and identifiers are language-neutral.
+This v0.1 draft is **bilingual in structure**. The repository navigation and core
+methodology pages are available in English, while Spanish publication artifacts
+and the Spanish methodology mirror are included in [`README.es.md`](README.es.md),
+[`framework/es/`](framework/es/) and [`paper/`](paper/). Catalog identifiers and
+schema fields remain language-neutral so the framework can support both Spanish
+and English materials without changing IDs.
 
 ## Citation
 
