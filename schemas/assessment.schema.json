@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://csptf.org/schemas/assessment.schema.json",
+  "title": "CSPTF Assessment Manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "framework_version",
+    "assessment_id",
+    "authorization_reference",
+    "system_name",
+    "scope",
+    "profile_by_domain",
+    "test_matrix",
+    "limitations"
+  ],
+  "properties": {
+    "framework_version": {
+      "type": "string"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "authorization_reference": {
+      "type": "string",
+      "minLength": 3
+    },
+    "system_name": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "object"
+    },
+    "profile_by_domain": {
+      "type": "object"
+    },
+    "test_matrix": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

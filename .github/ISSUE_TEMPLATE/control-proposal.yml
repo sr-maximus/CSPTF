@@ -1,0 +1,37 @@
+name: Control or test proposal
+description: Propose a CSPTF control, test, threat, weakness or mapping change
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: dropdown
+    id: object
+    attributes:
+      label: Object type
+      options: [Control, Test, Threat, Weakness, Mapping, Other]
+    validations:
+      required: true
+  - type: input
+    id: domain
+    attributes:
+      label: Domain code
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary sources and evidence
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety
+      options:
+        - label: This proposal is authorized, non-destructive and does not expose live secrets or customer data.
+          required: true

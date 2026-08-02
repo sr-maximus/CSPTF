@@ -1,0 +1,402 @@
+[
+  {
+    "id": "REF-001",
+    "type": "framework",
+    "year": "2025",
+    "authors_org": "MITRE",
+    "title": "MITRE AADAPT: Adversarial Actions in Digital Asset Payment Technologies",
+    "venue": "MITRE",
+    "url": "https://aadapt.mitre.org/",
+    "relevance": "Tácticas y técnicas adversarias para sistemas de gestión de activos digitales."
+  },
+  {
+    "id": "REF-002",
+    "type": "framework",
+    "year": "2025",
+    "authors_org": "MITRE",
+    "title": "MITRE Introduces AADAPT Cybersecurity Framework for Cryptocurrency",
+    "venue": "MITRE",
+    "url": "https://www.mitre.org/news-insights/news-release/mitre-introduces-aadapt-cybersecurity-framework-cryptocurrency",
+    "relevance": "Contexto, alcance y lanzamiento oficial de AADAPT."
+  },
+  {
+    "id": "REF-003",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "OWASP Foundation",
+    "title": "OWASP Smart Contract Security Testing Guide (SCSTG)",
+    "venue": "OWASP SCS",
+    "url": "https://scs.owasp.org/SCSTG/",
+    "relevance": "Metodología y casos de prueba para contratos inteligentes."
+  },
+  {
+    "id": "REF-004",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "OWASP Foundation",
+    "title": "OWASP Smart Contract Security Verification Standard (SCSVS)",
+    "venue": "OWASP SCS",
+    "url": "https://scs.owasp.org/SCSVS/",
+    "relevance": "Requisitos verificables para smart contracts, dApps y protocolos EVM."
+  },
+  {
+    "id": "REF-005",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "OWASP Foundation",
+    "title": "OWASP Smart Contract Weakness Enumeration (SCWE)",
+    "venue": "OWASP SCS",
+    "url": "https://scs.owasp.org/SCWE/",
+    "relevance": "Enumeración de debilidades de contratos inteligentes."
+  },
+  {
+    "id": "REF-006",
+    "type": "standard",
+    "year": "2025",
+    "authors_org": "Enterprise Ethereum Alliance",
+    "title": "EEA EthTrust Security Levels Specification Version 3",
+    "venue": "EEA",
+    "url": "https://entethalliance.org/specs/ethtrust-sl/v3/",
+    "relevance": "Requisitos de revisión y certificación de contratos Solidity."
+  },
+  {
+    "id": "REF-007",
+    "type": "guide",
+    "year": "2008",
+    "authors_org": "Scarfone, Souppaya, Cody, Orebaugh",
+    "title": "NIST SP 800-115: Technical Guide to Information Security Testing and Assessment",
+    "venue": "NIST",
+    "url": "https://doi.org/10.6028/NIST.SP.800-115",
+    "relevance": "Planificación, ejecución, análisis y mitigación en evaluaciones técnicas."
+  },
+  {
+    "id": "REF-008",
+    "type": "framework",
+    "year": "2024",
+    "authors_org": "NIST",
+    "title": "Cybersecurity Framework 2.0",
+    "venue": "NIST",
+    "url": "https://doi.org/10.6028/NIST.CSWP.29",
+    "relevance": "Gobernanza y ciclo de gestión del riesgo cibernético."
+  },
+  {
+    "id": "REF-009",
+    "type": "report",
+    "year": "2018",
+    "authors_org": "Yaga, Mell, Roby, Scarfone",
+    "title": "NISTIR 8202: Blockchain Technology Overview",
+    "venue": "NIST",
+    "url": "https://doi.org/10.6028/NIST.IR.8202",
+    "relevance": "Fundamentos, componentes y riesgos de blockchain."
+  },
+  {
+    "id": "REF-010",
+    "type": "standard",
+    "year": "2023",
+    "authors_org": "NIST",
+    "title": "FIPS 186-5: Digital Signature Standard",
+    "venue": "NIST",
+    "url": "https://doi.org/10.6028/NIST.FIPS.186-5",
+    "relevance": "Requisitos para algoritmos de firma digital."
+  },
+  {
+    "id": "REF-011",
+    "type": "standard",
+    "year": "2022",
+    "authors_org": "NIST",
+    "title": "SP 800-218: Secure Software Development Framework (SSDF)",
+    "venue": "NIST",
+    "url": "https://doi.org/10.6028/NIST.SP.800-218",
+    "relevance": "Desarrollo seguro y cadena de suministro de software."
+  },
+  {
+    "id": "REF-012",
+    "type": "framework",
+    "year": "2026",
+    "authors_org": "MITRE",
+    "title": "MITRE ATT&CK",
+    "venue": "MITRE",
+    "url": "https://attack.mitre.org/",
+    "relevance": "Comportamiento adversario complementario a AADAPT."
+  },
+  {
+    "id": "REF-013",
+    "type": "framework",
+    "year": "2026",
+    "authors_org": "MITRE",
+    "title": "MITRE D3FEND",
+    "venue": "MITRE",
+    "url": "https://d3fend.mitre.org/",
+    "relevance": "Contramedidas y técnicas defensivas."
+  },
+  {
+    "id": "REF-014",
+    "type": "guide",
+    "year": "2026",
+    "authors_org": "OWASP Foundation",
+    "title": "OWASP Web Security Testing Guide",
+    "venue": "OWASP",
+    "url": "https://owasp.org/www-project-web-security-testing-guide/",
+    "relevance": "Patrón de organización de pruebas de seguridad web."
+  },
+  {
+    "id": "REF-015",
+    "type": "paper",
+    "year": "2017",
+    "authors_org": "Atzei, Bartoletti, Cimoli",
+    "title": "A Survey of Attacks on Ethereum Smart Contracts (SoK)",
+    "venue": "POST 2017",
+    "url": "https://doi.org/10.1007/978-3-662-54455-6_8",
+    "relevance": "Taxonomía seminal de ataques a contratos Ethereum."
+  },
+  {
+    "id": "REF-016",
+    "type": "paper",
+    "year": "2016",
+    "authors_org": "Luu, Chu, Olickel, Saxena, Hobor",
+    "title": "Making Smart Contracts Smarter",
+    "venue": "ACM CCS 2016",
+    "url": "https://doi.org/10.1145/2976749.2978309",
+    "relevance": "Análisis simbólico y vulnerabilidades de smart contracts."
+  },
+  {
+    "id": "REF-017",
+    "type": "paper",
+    "year": "2018",
+    "authors_org": "Tsankov et al.",
+    "title": "Securify: Practical Security Analysis of Smart Contracts",
+    "venue": "ACM CCS 2018",
+    "url": "https://doi.org/10.1145/3243734.3243780",
+    "relevance": "Análisis semántico y patrones de cumplimiento/violación."
+  },
+  {
+    "id": "REF-018",
+    "type": "paper",
+    "year": "2018",
+    "authors_org": "Nikolic et al.",
+    "title": "Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",
+    "venue": "ACSAC 2018",
+    "url": "https://doi.org/10.1145/3274694.3274743",
+    "relevance": "Análisis a escala de comportamientos vulnerables."
+  },
+  {
+    "id": "REF-019",
+    "type": "paper",
+    "year": "2020",
+    "authors_org": "Durieux, Ferreira, Abreu, Cruz",
+    "title": "Empirical Review of Automated Analysis Tools on 47,587 Ethereum Smart Contracts",
+    "venue": "ICSE 2020",
+    "url": "https://doi.org/10.1145/3377811.3380364",
+    "relevance": "Limitaciones, falsos positivos y complementariedad de herramientas."
+  },
+  {
+    "id": "REF-020",
+    "type": "paper",
+    "year": "2020",
+    "authors_org": "Daian et al.",
+    "title": "Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",
+    "venue": "IEEE S&P 2020",
+    "url": "https://doi.org/10.1109/SP40000.2020.00040",
+    "relevance": "MEV, ordenamiento y efectos económicos/consenso."
+  },
+  {
+    "id": "REF-021",
+    "type": "paper",
+    "year": "2021",
+    "authors_org": "Qin et al.",
+    "title": "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit",
+    "venue": "Financial Cryptography 2021",
+    "url": "https://doi.org/10.1007/978-3-662-64331-0_1",
+    "relevance": "Ataques económicos con liquidez temporal."
+  },
+  {
+    "id": "REF-022",
+    "type": "paper",
+    "year": "2021",
+    "authors_org": "Su et al.",
+    "title": "Evil Under the Sun: Understanding and Discovering Attacks on Ethereum Decentralized Applications",
+    "venue": "USENIX Security 2021",
+    "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/su",
+    "relevance": "Medición y patrones de ataques reales contra dApps."
+  },
+  {
+    "id": "REF-023",
+    "type": "paper",
+    "year": "2021",
+    "authors_org": "So, Hong, Oh",
+    "title": "SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts",
+    "venue": "USENIX Security 2021",
+    "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/so",
+    "relevance": "Secuencias transaccionales y ejecución simbólica guiada."
+  },
+  {
+    "id": "REF-024",
+    "type": "paper",
+    "year": "2021",
+    "authors_org": "He et al.",
+    "title": "EOSAFE: Security Analysis of EOSIO Smart Contracts",
+    "venue": "USENIX Security 2021",
+    "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/he-ningyu",
+    "relevance": "Seguridad de contratos fuera del EVM."
+  },
+  {
+    "id": "REF-025",
+    "type": "paper",
+    "year": "2024",
+    "authors_org": "Liao et al.",
+    "title": "SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2406.15999",
+    "relevance": "Vulnerabilidades y semántica cross-chain."
+  },
+  {
+    "id": "REF-026",
+    "type": "paper",
+    "year": "2024",
+    "authors_org": "Augusto et al.",
+    "title": "XChainWatcher: Monitoring and Identifying Attacks in Cross-Chain Bridges",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2410.02029",
+    "relevance": "Monitoreo y detección de ataques de bridges."
+  },
+  {
+    "id": "REF-027",
+    "type": "paper",
+    "year": "2024",
+    "authors_org": "Wu et al.",
+    "title": "Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2410.14493",
+    "relevance": "Incidentes, patrones y detección de ataques cross-chain."
+  },
+  {
+    "id": "REF-028",
+    "type": "specification",
+    "year": "2024",
+    "authors_org": "OASIS",
+    "title": "STIX Version 2.1",
+    "venue": "OASIS Open",
+    "url": "https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html",
+    "relevance": "Intercambio estructurado de inteligencia de amenazas."
+  },
+  {
+    "id": "REF-029",
+    "type": "standard",
+    "year": "2023",
+    "authors_org": "FIRST",
+    "title": "Common Vulnerability Scoring System Version 4.0",
+    "venue": "FIRST",
+    "url": "https://www.first.org/cvss/v4.0/",
+    "relevance": "Referencia de severidad técnica; CSPTF añade dimensiones económicas y sistémicas."
+  },
+  {
+    "id": "REF-030",
+    "type": "framework",
+    "year": "2026",
+    "authors_org": "OpenSSF",
+    "title": "Supply-chain Levels for Software Artifacts (SLSA)",
+    "venue": "OpenSSF",
+    "url": "https://slsa.dev/",
+    "relevance": "Procedencia e integridad de artefactos."
+  },
+  {
+    "id": "REF-031",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "OWASP Foundation",
+    "title": "CycloneDX Specification",
+    "venue": "OWASP",
+    "url": "https://cyclonedx.org/specification/overview/",
+    "relevance": "SBOM y transparencia de componentes."
+  },
+  {
+    "id": "REF-032",
+    "type": "standard",
+    "year": "2021",
+    "authors_org": "FATF",
+    "title": "Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs",
+    "venue": "FATF",
+    "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html",
+    "relevance": "AML/CFT y obligaciones de VASP."
+  },
+  {
+    "id": "REF-033",
+    "type": "regulation",
+    "year": "2023",
+    "authors_org": "European Union",
+    "title": "Regulation (EU) 2023/1114 on Markets in Crypto-assets (MiCA)",
+    "venue": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1114/oj",
+    "relevance": "Requisitos regulatorios para criptoactivos y proveedores."
+  },
+  {
+    "id": "REF-034",
+    "type": "regulation",
+    "year": "2022",
+    "authors_org": "European Union",
+    "title": "Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA)",
+    "venue": "EUR-Lex",
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj",
+    "relevance": "Resiliencia operacional y pruebas en entidades financieras."
+  },
+  {
+    "id": "REF-035",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "Bitcoin Improvement Proposals",
+    "title": "BIP-32: Hierarchical Deterministic Wallets",
+    "venue": "Bitcoin BIPs",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki",
+    "relevance": "Derivación jerárquica de claves."
+  },
+  {
+    "id": "REF-036",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "Bitcoin Improvement Proposals",
+    "title": "BIP-39: Mnemonic code for generating deterministic keys",
+    "venue": "Bitcoin BIPs",
+    "url": "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki",
+    "relevance": "Frases mnemónicas y generación de seeds."
+  },
+  {
+    "id": "REF-037",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "Ethereum Improvement Proposals",
+    "title": "EIP-712: Typed structured data hashing and signing",
+    "venue": "Ethereum EIPs",
+    "url": "https://eips.ethereum.org/EIPS/eip-712",
+    "relevance": "Firmas estructuradas y presentación de intención."
+  },
+  {
+    "id": "REF-038",
+    "type": "standard",
+    "year": "2026",
+    "authors_org": "Ethereum Improvement Proposals",
+    "title": "ERC-1967: Proxy Storage Slots",
+    "venue": "Ethereum EIPs",
+    "url": "https://eips.ethereum.org/EIPS/eip-1967",
+    "relevance": "Almacenamiento y proxies actualizables."
+  },
+  {
+    "id": "REF-039",
+    "type": "paper",
+    "year": "2008",
+    "authors_org": "Satoshi Nakamoto",
+    "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+    "venue": "Bitcoin.org",
+    "url": "https://bitcoin.org/bitcoin.pdf",
+    "relevance": "Modelo base de consenso y pagos digitales."
+  },
+  {
+    "id": "REF-040",
+    "type": "specification",
+    "year": "2026",
+    "authors_org": "Gavin Wood et al.",
+    "title": "Ethereum Yellow Paper",
+    "venue": "Ethereum",
+    "url": "https://ethereum.github.io/yellowpaper/paper.pdf",
+    "relevance": "Semántica formal del EVM y protocolo Ethereum."
+  }
+]

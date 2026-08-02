@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://csptf.org/schemas/test.schema.json",
+  "title": "CSPTF Test",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "domain_id",
+    "domain_code",
+    "title_es",
+    "objective",
+    "minimum_profile",
+    "test_type",
+    "environment",
+    "prerequisites",
+    "procedure_summary",
+    "evidence",
+    "pass_criteria",
+    "fail_criteria",
+    "related_controls",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^CSPTF-TEST-[A-Z0-9]{2,4}-[0-9]{3}$"
+    },
+    "domain_id": {
+      "type": "string",
+      "pattern": "^CSPTF-DOM-[0-9]{2}$"
+    },
+    "domain_code": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]{2,4}$"
+    },
+    "title_es": {
+      "type": "string",
+      "minLength": 3
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 20
+    },
+    "minimum_profile": {
+      "enum": [
+        "AP1",
+        "AP2",
+        "AP3",
+        "AP4"
+      ]
+    },
+    "test_type": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "string",
+      "minLength": 20
+    },
+    "prerequisites": {
+      "type": "string",
+      "minLength": 20
+    },
+    "procedure_summary": {
+      "type": "string",
+      "minLength": 20
+    },
+    "evidence": {
+      "type": "string",
+      "minLength": 10
+    },
+    "pass_criteria": {
+      "type": "string",
+      "minLength": 20
+    },
+    "fail_criteria": {
+      "type": "string",
+      "minLength": 20
+    },
+    "aadapt_tactics": {
+      "type": "string"
+    },
+    "related_controls": {
+      "type": "string",
+      "pattern": "^CSPTF-CTRL-[A-Z0-9]{2,4}-[0-9]{3}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "verified",
+        "deprecated"
+      ]
+    }
+  }
+}

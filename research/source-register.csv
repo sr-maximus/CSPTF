@@ -1,0 +1,41 @@
+id,type,year,authors_org,title,venue,url,relevance
+REF-001,framework,2025,MITRE,MITRE AADAPT: Adversarial Actions in Digital Asset Payment Technologies,MITRE,https://aadapt.mitre.org/,Tácticas y técnicas adversarias para sistemas de gestión de activos digitales.
+REF-002,framework,2025,MITRE,MITRE Introduces AADAPT Cybersecurity Framework for Cryptocurrency,MITRE,https://www.mitre.org/news-insights/news-release/mitre-introduces-aadapt-cybersecurity-framework-cryptocurrency,"Contexto, alcance y lanzamiento oficial de AADAPT."
+REF-003,standard,2026,OWASP Foundation,OWASP Smart Contract Security Testing Guide (SCSTG),OWASP SCS,https://scs.owasp.org/SCSTG/,Metodología y casos de prueba para contratos inteligentes.
+REF-004,standard,2026,OWASP Foundation,OWASP Smart Contract Security Verification Standard (SCSVS),OWASP SCS,https://scs.owasp.org/SCSVS/,"Requisitos verificables para smart contracts, dApps y protocolos EVM."
+REF-005,standard,2026,OWASP Foundation,OWASP Smart Contract Weakness Enumeration (SCWE),OWASP SCS,https://scs.owasp.org/SCWE/,Enumeración de debilidades de contratos inteligentes.
+REF-006,standard,2025,Enterprise Ethereum Alliance,EEA EthTrust Security Levels Specification Version 3,EEA,https://entethalliance.org/specs/ethtrust-sl/v3/,Requisitos de revisión y certificación de contratos Solidity.
+REF-007,guide,2008,"Scarfone, Souppaya, Cody, Orebaugh",NIST SP 800-115: Technical Guide to Information Security Testing and Assessment,NIST,https://doi.org/10.6028/NIST.SP.800-115,"Planificación, ejecución, análisis y mitigación en evaluaciones técnicas."
+REF-008,framework,2024,NIST,Cybersecurity Framework 2.0,NIST,https://doi.org/10.6028/NIST.CSWP.29,Gobernanza y ciclo de gestión del riesgo cibernético.
+REF-009,report,2018,"Yaga, Mell, Roby, Scarfone",NISTIR 8202: Blockchain Technology Overview,NIST,https://doi.org/10.6028/NIST.IR.8202,"Fundamentos, componentes y riesgos de blockchain."
+REF-010,standard,2023,NIST,FIPS 186-5: Digital Signature Standard,NIST,https://doi.org/10.6028/NIST.FIPS.186-5,Requisitos para algoritmos de firma digital.
+REF-011,standard,2022,NIST,SP 800-218: Secure Software Development Framework (SSDF),NIST,https://doi.org/10.6028/NIST.SP.800-218,Desarrollo seguro y cadena de suministro de software.
+REF-012,framework,2026,MITRE,MITRE ATT&CK,MITRE,https://attack.mitre.org/,Comportamiento adversario complementario a AADAPT.
+REF-013,framework,2026,MITRE,MITRE D3FEND,MITRE,https://d3fend.mitre.org/,Contramedidas y técnicas defensivas.
+REF-014,guide,2026,OWASP Foundation,OWASP Web Security Testing Guide,OWASP,https://owasp.org/www-project-web-security-testing-guide/,Patrón de organización de pruebas de seguridad web.
+REF-015,paper,2017,"Atzei, Bartoletti, Cimoli",A Survey of Attacks on Ethereum Smart Contracts (SoK),POST 2017,https://doi.org/10.1007/978-3-662-54455-6_8,Taxonomía seminal de ataques a contratos Ethereum.
+REF-016,paper,2016,"Luu, Chu, Olickel, Saxena, Hobor",Making Smart Contracts Smarter,ACM CCS 2016,https://doi.org/10.1145/2976749.2978309,Análisis simbólico y vulnerabilidades de smart contracts.
+REF-017,paper,2018,Tsankov et al.,Securify: Practical Security Analysis of Smart Contracts,ACM CCS 2018,https://doi.org/10.1145/3243734.3243780,Análisis semántico y patrones de cumplimiento/violación.
+REF-018,paper,2018,Nikolic et al.,"Finding The Greedy, Prodigal, and Suicidal Contracts at Scale",ACSAC 2018,https://doi.org/10.1145/3274694.3274743,Análisis a escala de comportamientos vulnerables.
+REF-019,paper,2020,"Durieux, Ferreira, Abreu, Cruz","Empirical Review of Automated Analysis Tools on 47,587 Ethereum Smart Contracts",ICSE 2020,https://doi.org/10.1145/3377811.3380364,"Limitaciones, falsos positivos y complementariedad de herramientas."
+REF-020,paper,2020,Daian et al.,"Flash Boys 2.0: Frontrunning in Decentralized Exchanges, Miner Extractable Value, and Consensus Instability",IEEE S&P 2020,https://doi.org/10.1109/SP40000.2020.00040,"MEV, ordenamiento y efectos económicos/consenso."
+REF-021,paper,2021,Qin et al.,Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit,Financial Cryptography 2021,https://doi.org/10.1007/978-3-662-64331-0_1,Ataques económicos con liquidez temporal.
+REF-022,paper,2021,Su et al.,Evil Under the Sun: Understanding and Discovering Attacks on Ethereum Decentralized Applications,USENIX Security 2021,https://www.usenix.org/conference/usenixsecurity21/presentation/su,Medición y patrones de ataques reales contra dApps.
+REF-023,paper,2021,"So, Hong, Oh",SmarTest: Effectively Hunting Vulnerable Transaction Sequences in Smart Contracts,USENIX Security 2021,https://www.usenix.org/conference/usenixsecurity21/presentation/so,Secuencias transaccionales y ejecución simbólica guiada.
+REF-024,paper,2021,He et al.,EOSAFE: Security Analysis of EOSIO Smart Contracts,USENIX Security 2021,https://www.usenix.org/conference/usenixsecurity21/presentation/he-ningyu,Seguridad de contratos fuera del EVM.
+REF-025,paper,2024,Liao et al.,SmartAxe: Detecting Cross-Chain Vulnerabilities in Bridge Smart Contracts via Fine-Grained Static Analysis,arXiv,https://arxiv.org/abs/2406.15999,Vulnerabilidades y semántica cross-chain.
+REF-026,paper,2024,Augusto et al.,XChainWatcher: Monitoring and Identifying Attacks in Cross-Chain Bridges,arXiv,https://arxiv.org/abs/2410.02029,Monitoreo y detección de ataques de bridges.
+REF-027,paper,2024,Wu et al.,Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges,arXiv,https://arxiv.org/abs/2410.14493,"Incidentes, patrones y detección de ataques cross-chain."
+REF-028,specification,2024,OASIS,STIX Version 2.1,OASIS Open,https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html,Intercambio estructurado de inteligencia de amenazas.
+REF-029,standard,2023,FIRST,Common Vulnerability Scoring System Version 4.0,FIRST,https://www.first.org/cvss/v4.0/,Referencia de severidad técnica; CSPTF añade dimensiones económicas y sistémicas.
+REF-030,framework,2026,OpenSSF,Supply-chain Levels for Software Artifacts (SLSA),OpenSSF,https://slsa.dev/,Procedencia e integridad de artefactos.
+REF-031,standard,2026,OWASP Foundation,CycloneDX Specification,OWASP,https://cyclonedx.org/specification/overview/,SBOM y transparencia de componentes.
+REF-032,standard,2021,FATF,Updated Guidance for a Risk-Based Approach to Virtual Assets and VASPs,FATF,https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html,AML/CFT y obligaciones de VASP.
+REF-033,regulation,2023,European Union,Regulation (EU) 2023/1114 on Markets in Crypto-assets (MiCA),EUR-Lex,https://eur-lex.europa.eu/eli/reg/2023/1114/oj,Requisitos regulatorios para criptoactivos y proveedores.
+REF-034,regulation,2022,European Union,Regulation (EU) 2022/2554 on digital operational resilience for the financial sector (DORA),EUR-Lex,https://eur-lex.europa.eu/eli/reg/2022/2554/oj,Resiliencia operacional y pruebas en entidades financieras.
+REF-035,standard,2026,Bitcoin Improvement Proposals,BIP-32: Hierarchical Deterministic Wallets,Bitcoin BIPs,https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki,Derivación jerárquica de claves.
+REF-036,standard,2026,Bitcoin Improvement Proposals,BIP-39: Mnemonic code for generating deterministic keys,Bitcoin BIPs,https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki,Frases mnemónicas y generación de seeds.
+REF-037,standard,2026,Ethereum Improvement Proposals,EIP-712: Typed structured data hashing and signing,Ethereum EIPs,https://eips.ethereum.org/EIPS/eip-712,Firmas estructuradas y presentación de intención.
+REF-038,standard,2026,Ethereum Improvement Proposals,ERC-1967: Proxy Storage Slots,Ethereum EIPs,https://eips.ethereum.org/EIPS/eip-1967,Almacenamiento y proxies actualizables.
+REF-039,paper,2008,Satoshi Nakamoto,Bitcoin: A Peer-to-Peer Electronic Cash System,Bitcoin.org,https://bitcoin.org/bitcoin.pdf,Modelo base de consenso y pagos digitales.
+REF-040,specification,2026,Gavin Wood et al.,Ethereum Yellow Paper,Ethereum,https://ethereum.github.io/yellowpaper/paper.pdf,Semántica formal del EVM y protocolo Ethereum.

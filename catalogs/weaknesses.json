@@ -1,0 +1,902 @@
+[
+  {
+    "id": "CSPTF-WEAK-GOV-001",
+    "domain_code": "GOV",
+    "title_es": "Alcance ambiguo",
+    "description": "Condición de diseño, implementación u operación caracterizada por alcance ambiguo, capaz de facilitar amenazas del dominio GOV.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-GOV-002",
+    "domain_code": "GOV",
+    "title_es": "Inventario incompleto",
+    "description": "Condición de diseño, implementación u operación caracterizada por inventario incompleto, capaz de facilitar amenazas del dominio GOV.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-GOV-003",
+    "domain_code": "GOV",
+    "title_es": "Reglas de detención inexistentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por reglas de detención inexistentes, capaz de facilitar amenazas del dominio GOV.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-GOV-004",
+    "domain_code": "GOV",
+    "title_es": "RACI no definido",
+    "description": "Condición de diseño, implementación u operación caracterizada por raci no definido, capaz de facilitar amenazas del dominio GOV.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-GOV-005",
+    "domain_code": "GOV",
+    "title_es": "Evidencia sin cadena de custodia",
+    "description": "Condición de diseño, implementación u operación caracterizada por evidencia sin cadena de custodia, capaz de facilitar amenazas del dominio GOV.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ARC-001",
+    "domain_code": "ARC",
+    "title_es": "Invariantes no formalizados",
+    "description": "Condición de diseño, implementación u operación caracterizada por invariantes no formalizados, capaz de facilitar amenazas del dominio ARC.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ARC-002",
+    "domain_code": "ARC",
+    "title_es": "Estados terminales inseguros",
+    "description": "Condición de diseño, implementación u operación caracterizada por estados terminales inseguros, capaz de facilitar amenazas del dominio ARC.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ARC-003",
+    "domain_code": "ARC",
+    "title_es": "Acoplamiento excesivo",
+    "description": "Condición de diseño, implementación u operación caracterizada por acoplamiento excesivo, capaz de facilitar amenazas del dominio ARC.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ARC-004",
+    "domain_code": "ARC",
+    "title_es": "Privilegios concentrados",
+    "description": "Condición de diseño, implementación u operación caracterizada por privilegios concentrados, capaz de facilitar amenazas del dominio ARC.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ARC-005",
+    "domain_code": "ARC",
+    "title_es": "Recuperación arquitectónica no probada",
+    "description": "Condición de diseño, implementación u operación caracterizada por recuperación arquitectónica no probada, capaz de facilitar amenazas del dominio ARC.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CRY-001",
+    "domain_code": "CRY",
+    "title_es": "Entropía insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por entropía insuficiente, capaz de facilitar amenazas del dominio CRY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CRY-002",
+    "domain_code": "CRY",
+    "title_es": "Dominio de firma ambiguo",
+    "description": "Condición de diseño, implementación u operación caracterizada por dominio de firma ambiguo, capaz de facilitar amenazas del dominio CRY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CRY-003",
+    "domain_code": "CRY",
+    "title_es": "Parámetros obsoletos",
+    "description": "Condición de diseño, implementación u operación caracterizada por parámetros obsoletos, capaz de facilitar amenazas del dominio CRY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CRY-004",
+    "domain_code": "CRY",
+    "title_es": "Comparaciones no constantes",
+    "description": "Condición de diseño, implementación u operación caracterizada por comparaciones no constantes, capaz de facilitar amenazas del dominio CRY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CRY-005",
+    "domain_code": "CRY",
+    "title_es": "Manejo incorrecto de serialización",
+    "description": "Condición de diseño, implementación u operación caracterizada por manejo incorrecto de serialización, capaz de facilitar amenazas del dominio CRY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-KEY-001",
+    "domain_code": "KEY",
+    "title_es": "Seeds sin protección suficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por seeds sin protección suficiente, capaz de facilitar amenazas del dominio KEY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-KEY-002",
+    "domain_code": "KEY",
+    "title_es": "Quorum mal configurado",
+    "description": "Condición de diseño, implementación u operación caracterizada por quorum mal configurado, capaz de facilitar amenazas del dominio KEY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-KEY-003",
+    "domain_code": "KEY",
+    "title_es": "Límites de firma ausentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por límites de firma ausentes, capaz de facilitar amenazas del dominio KEY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-KEY-004",
+    "domain_code": "KEY",
+    "title_es": "Recuperación no ensayada",
+    "description": "Condición de diseño, implementación u operación caracterizada por recuperación no ensayada, capaz de facilitar amenazas del dominio KEY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-KEY-005",
+    "domain_code": "KEY",
+    "title_es": "Segregación de wallets insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por segregación de wallets insuficiente, capaz de facilitar amenazas del dominio KEY.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SCT-001",
+    "domain_code": "SCT",
+    "title_es": "Control de acceso incompleto",
+    "description": "Condición de diseño, implementación u operación caracterizada por control de acceso incompleto, capaz de facilitar amenazas del dominio SCT.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SCT-002",
+    "domain_code": "SCT",
+    "title_es": "Checks-effects-interactions incumplido",
+    "description": "Condición de diseño, implementación u operación caracterizada por checks-effects-interactions incumplido, capaz de facilitar amenazas del dominio SCT.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SCT-003",
+    "domain_code": "SCT",
+    "title_es": "Aritmética o precisión incorrecta",
+    "description": "Condición de diseño, implementación u operación caracterizada por aritmética o precisión incorrecta, capaz de facilitar amenazas del dominio SCT.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SCT-004",
+    "domain_code": "SCT",
+    "title_es": "Upgrade inseguro",
+    "description": "Condición de diseño, implementación u operación caracterizada por upgrade inseguro, capaz de facilitar amenazas del dominio SCT.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SCT-005",
+    "domain_code": "SCT",
+    "title_es": "Cobertura de pruebas insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por cobertura de pruebas insuficiente, capaz de facilitar amenazas del dominio SCT.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DAP-001",
+    "domain_code": "DAP",
+    "title_es": "Firmas ciegas",
+    "description": "Condición de diseño, implementación u operación caracterizada por firmas ciegas, capaz de facilitar amenazas del dominio DAP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DAP-002",
+    "domain_code": "DAP",
+    "title_es": "Chain ID no validado",
+    "description": "Condición de diseño, implementación u operación caracterizada por chain id no validado, capaz de facilitar amenazas del dominio DAP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DAP-003",
+    "domain_code": "DAP",
+    "title_es": "Sesiones no ligadas al firmante",
+    "description": "Condición de diseño, implementación u operación caracterizada por sesiones no ligadas al firmante, capaz de facilitar amenazas del dominio DAP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DAP-004",
+    "domain_code": "DAP",
+    "title_es": "Dependencias remotas sin integridad",
+    "description": "Condición de diseño, implementación u operación caracterizada por dependencias remotas sin integridad, capaz de facilitar amenazas del dominio DAP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DAP-005",
+    "domain_code": "DAP",
+    "title_es": "Mensajes de riesgo poco comprensibles",
+    "description": "Condición de diseño, implementación u operación caracterizada por mensajes de riesgo poco comprensibles, capaz de facilitar amenazas del dominio DAP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-TOK-001",
+    "domain_code": "TOK",
+    "title_es": "Supply no acotado",
+    "description": "Condición de diseño, implementación u operación caracterizada por supply no acotado, capaz de facilitar amenazas del dominio TOK.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-TOK-002",
+    "domain_code": "TOK",
+    "title_es": "Metadata centralizada y mutable",
+    "description": "Condición de diseño, implementación u operación caracterizada por metadata centralizada y mutable, capaz de facilitar amenazas del dominio TOK.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-TOK-003",
+    "domain_code": "TOK",
+    "title_es": "Hooks no confiables",
+    "description": "Condición de diseño, implementación u operación caracterizada por hooks no confiables, capaz de facilitar amenazas del dominio TOK.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-TOK-004",
+    "domain_code": "TOK",
+    "title_es": "Permisos de minter excesivos",
+    "description": "Condición de diseño, implementación u operación caracterizada por permisos de minter excesivos, capaz de facilitar amenazas del dominio TOK.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-TOK-005",
+    "domain_code": "TOK",
+    "title_es": "Semántica de transferencia no estándar",
+    "description": "Condición de diseño, implementación u operación caracterizada por semántica de transferencia no estándar, capaz de facilitar amenazas del dominio TOK.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DEF-001",
+    "domain_code": "DEF",
+    "title_es": "Oráculo poco robusto",
+    "description": "Condición de diseño, implementación u operación caracterizada por oráculo poco robusto, capaz de facilitar amenazas del dominio DEF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DEF-002",
+    "domain_code": "DEF",
+    "title_es": "Caps inexistentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por caps inexistentes, capaz de facilitar amenazas del dominio DEF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DEF-003",
+    "domain_code": "DEF",
+    "title_es": "Supuestos de liquidez irreales",
+    "description": "Condición de diseño, implementación u operación caracterizada por supuestos de liquidez irreales, capaz de facilitar amenazas del dominio DEF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DEF-004",
+    "domain_code": "DEF",
+    "title_es": "Redondeo acumulativo",
+    "description": "Condición de diseño, implementación u operación caracterizada por redondeo acumulativo, capaz de facilitar amenazas del dominio DEF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-DEF-005",
+    "domain_code": "DEF",
+    "title_es": "Dependencia de una sola ruta de liquidación",
+    "description": "Condición de diseño, implementación u operación caracterizada por dependencia de una sola ruta de liquidación, capaz de facilitar amenazas del dominio DEF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ORA-001",
+    "domain_code": "ORA",
+    "title_es": "Fuente única",
+    "description": "Condición de diseño, implementación u operación caracterizada por fuente única, capaz de facilitar amenazas del dominio ORA.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ORA-002",
+    "domain_code": "ORA",
+    "title_es": "Staleness no controlado",
+    "description": "Condición de diseño, implementación u operación caracterizada por staleness no controlado, capaz de facilitar amenazas del dominio ORA.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ORA-003",
+    "domain_code": "ORA",
+    "title_es": "Agregación débil",
+    "description": "Condición de diseño, implementación u operación caracterizada por agregación débil, capaz de facilitar amenazas del dominio ORA.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ORA-004",
+    "domain_code": "ORA",
+    "title_es": "Fallback inseguro",
+    "description": "Condición de diseño, implementación u operación caracterizada por fallback inseguro, capaz de facilitar amenazas del dominio ORA.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-ORA-005",
+    "domain_code": "ORA",
+    "title_es": "Límites de precio ausentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por límites de precio ausentes, capaz de facilitar amenazas del dominio ORA.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-BRG-001",
+    "domain_code": "BRG",
+    "title_es": "Dominio de mensaje ambiguo",
+    "description": "Condición de diseño, implementación u operación caracterizada por dominio de mensaje ambiguo, capaz de facilitar amenazas del dominio BRG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-BRG-002",
+    "domain_code": "BRG",
+    "title_es": "Quorum concentrado",
+    "description": "Condición de diseño, implementación u operación caracterizada por quorum concentrado, capaz de facilitar amenazas del dominio BRG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-BRG-003",
+    "domain_code": "BRG",
+    "title_es": "Reconciliación insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por reconciliación insuficiente, capaz de facilitar amenazas del dominio BRG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-BRG-004",
+    "domain_code": "BRG",
+    "title_es": "Finalidad asumida incorrectamente",
+    "description": "Condición de diseño, implementación u operación caracterizada por finalidad asumida incorrectamente, capaz de facilitar amenazas del dominio BRG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-BRG-005",
+    "domain_code": "BRG",
+    "title_es": "Rate limits ausentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por rate limits ausentes, capaz de facilitar amenazas del dominio BRG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-NET-001",
+    "domain_code": "NET",
+    "title_es": "Puertos administrativos expuestos",
+    "description": "Condición de diseño, implementación u operación caracterizada por puertos administrativos expuestos, capaz de facilitar amenazas del dominio NET.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-NET-002",
+    "domain_code": "NET",
+    "title_es": "Clientes sin diversidad",
+    "description": "Condición de diseño, implementación u operación caracterizada por clientes sin diversidad, capaz de facilitar amenazas del dominio NET.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-NET-003",
+    "domain_code": "NET",
+    "title_es": "Protección anti-slashing insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por protección anti-slashing insuficiente, capaz de facilitar amenazas del dominio NET.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-NET-004",
+    "domain_code": "NET",
+    "title_es": "Peer management débil",
+    "description": "Condición de diseño, implementación u operación caracterizada por peer management débil, capaz de facilitar amenazas del dominio NET.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-NET-005",
+    "domain_code": "NET",
+    "title_es": "Recuperación de estado no probada",
+    "description": "Condición de diseño, implementación u operación caracterizada por recuperación de estado no probada, capaz de facilitar amenazas del dominio NET.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-L2-001",
+    "domain_code": "L2",
+    "title_es": "Escape hatch no probado",
+    "description": "Condición de diseño, implementación u operación caracterizada por escape hatch no probado, capaz de facilitar amenazas del dominio L2.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-L2-002",
+    "domain_code": "L2",
+    "title_es": "DA centralizada",
+    "description": "Condición de diseño, implementación u operación caracterizada por da centralizada, capaz de facilitar amenazas del dominio L2.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-L2-003",
+    "domain_code": "L2",
+    "title_es": "Timelock insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por timelock insuficiente, capaz de facilitar amenazas del dominio L2.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-L2-004",
+    "domain_code": "L2",
+    "title_es": "Dependencia de un solo prover",
+    "description": "Condición de diseño, implementación u operación caracterizada por dependencia de un solo prover, capaz de facilitar amenazas del dominio L2.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-L2-005",
+    "domain_code": "L2",
+    "title_es": "Monitoreo de discrepancias ausente",
+    "description": "Condición de diseño, implementación u operación caracterizada por monitoreo de discrepancias ausente, capaz de facilitar amenazas del dominio L2.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CEX-001",
+    "domain_code": "CEX",
+    "title_es": "Recuperación de cuenta débil",
+    "description": "Condición de diseño, implementación u operación caracterizada por recuperación de cuenta débil, capaz de facilitar amenazas del dominio CEX.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CEX-002",
+    "domain_code": "CEX",
+    "title_es": "Idempotencia insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por idempotencia insuficiente, capaz de facilitar amenazas del dominio CEX.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CEX-003",
+    "domain_code": "CEX",
+    "title_es": "Límites de retiro inadecuados",
+    "description": "Condición de diseño, implementación u operación caracterizada por límites de retiro inadecuados, capaz de facilitar amenazas del dominio CEX.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CEX-004",
+    "domain_code": "CEX",
+    "title_es": "Reconciliación tardía",
+    "description": "Condición de diseño, implementación u operación caracterizada por reconciliación tardía, capaz de facilitar amenazas del dominio CEX.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-CEX-005",
+    "domain_code": "CEX",
+    "title_es": "Segregación de funciones deficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por segregación de funciones deficiente, capaz de facilitar amenazas del dominio CEX.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-API-001",
+    "domain_code": "API",
+    "title_es": "API keys de larga duración",
+    "description": "Condición de diseño, implementación u operación caracterizada por api keys de larga duración, capaz de facilitar amenazas del dominio API.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-API-002",
+    "domain_code": "API",
+    "title_es": "Autorización a nivel objeto ausente",
+    "description": "Condición de diseño, implementación u operación caracterizada por autorización a nivel objeto ausente, capaz de facilitar amenazas del dominio API.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-API-003",
+    "domain_code": "API",
+    "title_es": "RPC administrativo expuesto",
+    "description": "Condición de diseño, implementación u operación caracterizada por rpc administrativo expuesto, capaz de facilitar amenazas del dominio API.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-API-004",
+    "domain_code": "API",
+    "title_es": "Rate limits inconsistentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por rate limits inconsistentes, capaz de facilitar amenazas del dominio API.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-API-005",
+    "domain_code": "API",
+    "title_es": "Errores excesivamente informativos",
+    "description": "Condición de diseño, implementación u operación caracterizada por errores excesivamente informativos, capaz de facilitar amenazas del dominio API.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-INF-001",
+    "domain_code": "INF",
+    "title_es": "Roles cloud excesivos",
+    "description": "Condición de diseño, implementación u operación caracterizada por roles cloud excesivos, capaz de facilitar amenazas del dominio INF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-INF-002",
+    "domain_code": "INF",
+    "title_es": "Secretos en variables o repositorios",
+    "description": "Condición de diseño, implementación u operación caracterizada por secretos en variables o repositorios, capaz de facilitar amenazas del dominio INF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-INF-003",
+    "domain_code": "INF",
+    "title_es": "Imágenes no firmadas",
+    "description": "Condición de diseño, implementación u operación caracterizada por imágenes no firmadas, capaz de facilitar amenazas del dominio INF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-INF-004",
+    "domain_code": "INF",
+    "title_es": "Kubernetes mal endurecido",
+    "description": "Condición de diseño, implementación u operación caracterizada por kubernetes mal endurecido, capaz de facilitar amenazas del dominio INF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-INF-005",
+    "domain_code": "INF",
+    "title_es": "Backups no restaurados en pruebas",
+    "description": "Condición de diseño, implementación u operación caracterizada por backups no restaurados en pruebas, capaz de facilitar amenazas del dominio INF.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IAM-001",
+    "domain_code": "IAM",
+    "title_es": "Privilegios permanentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por privilegios permanentes, capaz de facilitar amenazas del dominio IAM.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IAM-002",
+    "domain_code": "IAM",
+    "title_es": "MFA recuperable por canal débil",
+    "description": "Condición de diseño, implementación u operación caracterizada por mfa recuperable por canal débil, capaz de facilitar amenazas del dominio IAM.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IAM-003",
+    "domain_code": "IAM",
+    "title_es": "Segregación de funciones incompleta",
+    "description": "Condición de diseño, implementación u operación caracterizada por segregación de funciones incompleta, capaz de facilitar amenazas del dominio IAM.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IAM-004",
+    "domain_code": "IAM",
+    "title_es": "Cuentas compartidas",
+    "description": "Condición de diseño, implementación u operación caracterizada por cuentas compartidas, capaz de facilitar amenazas del dominio IAM.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IAM-005",
+    "domain_code": "IAM",
+    "title_es": "Recertificación insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por recertificación insuficiente, capaz de facilitar amenazas del dominio IAM.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SUP-001",
+    "domain_code": "SUP",
+    "title_es": "Dependencias sin pinning",
+    "description": "Condición de diseño, implementación u operación caracterizada por dependencias sin pinning, capaz de facilitar amenazas del dominio SUP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SUP-002",
+    "domain_code": "SUP",
+    "title_es": "Artefactos no firmados",
+    "description": "Condición de diseño, implementación u operación caracterizada por artefactos no firmados, capaz de facilitar amenazas del dominio SUP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SUP-003",
+    "domain_code": "SUP",
+    "title_es": "Runners compartidos y privilegiados",
+    "description": "Condición de diseño, implementación u operación caracterizada por runners compartidos y privilegiados, capaz de facilitar amenazas del dominio SUP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SUP-004",
+    "domain_code": "SUP",
+    "title_es": "SBOM ausente",
+    "description": "Condición de diseño, implementación u operación caracterizada por sbom ausente, capaz de facilitar amenazas del dominio SUP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-SUP-005",
+    "domain_code": "SUP",
+    "title_es": "Proveedores sin evaluación continua",
+    "description": "Condición de diseño, implementación u operación caracterizada por proveedores sin evaluación continua, capaz de facilitar amenazas del dominio SUP.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-REG-001",
+    "domain_code": "REG",
+    "title_es": "Datos KYC sobreexpuestos",
+    "description": "Condición de diseño, implementación u operación caracterizada por datos kyc sobreexpuestos, capaz de facilitar amenazas del dominio REG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-REG-002",
+    "domain_code": "REG",
+    "title_es": "Reglas AML estáticas",
+    "description": "Condición de diseño, implementación u operación caracterizada por reglas aml estáticas, capaz de facilitar amenazas del dominio REG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-REG-003",
+    "domain_code": "REG",
+    "title_es": "Minimización insuficiente",
+    "description": "Condición de diseño, implementación u operación caracterizada por minimización insuficiente, capaz de facilitar amenazas del dominio REG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-REG-004",
+    "domain_code": "REG",
+    "title_es": "Cifrado o tokenización inadecuados",
+    "description": "Condición de diseño, implementación u operación caracterizada por cifrado o tokenización inadecuados, capaz de facilitar amenazas del dominio REG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-REG-005",
+    "domain_code": "REG",
+    "title_es": "Obligaciones no mapeadas por jurisdicción",
+    "description": "Condición de diseño, implementación u operación caracterizada por obligaciones no mapeadas por jurisdicción, capaz de facilitar amenazas del dominio REG.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-MON-001",
+    "domain_code": "MON",
+    "title_es": "Logs críticos ausentes",
+    "description": "Condición de diseño, implementación u operación caracterizada por logs críticos ausentes, capaz de facilitar amenazas del dominio MON.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-MON-002",
+    "domain_code": "MON",
+    "title_es": "Eventos sin contexto de negocio",
+    "description": "Condición de diseño, implementación u operación caracterizada por eventos sin contexto de negocio, capaz de facilitar amenazas del dominio MON.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-MON-003",
+    "domain_code": "MON",
+    "title_es": "Alertas sin owner",
+    "description": "Condición de diseño, implementación u operación caracterizada por alertas sin owner, capaz de facilitar amenazas del dominio MON.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-MON-004",
+    "domain_code": "MON",
+    "title_es": "Cobertura no medida",
+    "description": "Condición de diseño, implementación u operación caracterizada por cobertura no medida, capaz de facilitar amenazas del dominio MON.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-MON-005",
+    "domain_code": "MON",
+    "title_es": "Retención insuficiente para investigación",
+    "description": "Condición de diseño, implementación u operación caracterizada por retención insuficiente para investigación, capaz de facilitar amenazas del dominio MON.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IRR-001",
+    "domain_code": "IRR",
+    "title_es": "Playbooks genéricos",
+    "description": "Condición de diseño, implementación u operación caracterizada por playbooks genéricos, capaz de facilitar amenazas del dominio IRR.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IRR-002",
+    "domain_code": "IRR",
+    "title_es": "Pausas no ensayadas",
+    "description": "Condición de diseño, implementación u operación caracterizada por pausas no ensayadas, capaz de facilitar amenazas del dominio IRR.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IRR-003",
+    "domain_code": "IRR",
+    "title_es": "Dependencia de personas únicas",
+    "description": "Condición de diseño, implementación u operación caracterizada por dependencia de personas únicas, capaz de facilitar amenazas del dominio IRR.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IRR-004",
+    "domain_code": "IRR",
+    "title_es": "Reconciliación manual lenta",
+    "description": "Condición de diseño, implementación u operación caracterizada por reconciliación manual lenta, capaz de facilitar amenazas del dominio IRR.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-WEAK-IRR-005",
+    "domain_code": "IRR",
+    "title_es": "Backups y claves de recuperación no validados",
+    "description": "Condición de diseño, implementación u operación caracterizada por backups y claves de recuperación no validados, capaz de facilitar amenazas del dominio IRR.",
+    "likely_consequence": "Pérdida de confidencialidad, integridad, disponibilidad, control, solvencia o confianza; el impacto exacto depende del flujo de valor y la irreversibilidad.",
+    "recommended_action": "Corregir la causa raíz, añadir evidencia automatizable y realizar retest independiente proporcional a criticidad.",
+    "status": "draft"
+  }
+]
