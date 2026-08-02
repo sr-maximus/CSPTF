@@ -55,7 +55,7 @@ templates/      Rules of engagement, findings, reports, retest and disclosure
 schemas/        Machine-readable JSON schemas
 tools/          Catalog validator and query/checklist utilities
 examples/       Safe example assessment package
-publication/    LinkedIn article and release material
+publication/    Release notes, validation report and checksums
 ```
 
 ## Publication artifacts
@@ -64,7 +64,6 @@ publication/    LinkedIn article and release material
 - [Spanish technical paper (DOCX)](paper/CSPTF_Paper_ES.docx)
 - [Spanish consolidated specification (PDF)](paper/CSPTF_Specification_v0.1_ES.pdf)
 - [Spanish consolidated specification (DOCX)](paper/CSPTF_Specification_v0.1_ES.docx)
-- [LinkedIn article in Spanish](publication/linkedin-article-es.md)
 - [Release validation report](publication/validation-report-v0.1.0-draft.md)
 
 ## Getting started

@@ -56,8 +56,6 @@ Lectura recomendada:
 - [Paper técnico editable en Word](paper/CSPTF_Paper_ES.docx)
 - [Especificación consolidada en PDF](paper/CSPTF_Specification_v0.1_ES.pdf)
 - [Especificación consolidada editable en Word](paper/CSPTF_Specification_v0.1_ES.docx)
-- [Artículo para LinkedIn](publication/linkedin-article-es.md)
-- [Post breve para LinkedIn](publication/linkedin-post-es.md)
 - [Informe de validación de la release](publication/validation-report-v0.1.0-draft.md)
 
 ## Uso responsable

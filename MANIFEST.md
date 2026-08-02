@@ -21,8 +21,7 @@ Generated: 2026-07-31
 - `paper/CSPTF_Specification_v0.1_ES.pdf` - 99-page A4-landscape specification
 - `paper/CSPTF-Paper-ES.md`
 - `paper/CSPTF-Specification-v0.1-ES.md`
-- `publication/linkedin-article-es.md`
-- `publication/linkedin-post-es.md`
+- `publication/release-notes-v0.1.0-draft.md`
 - `publication/validation-report-v0.1.0-draft.md`
 - `catalogs/*.json`
 - `catalogs/*.csv`

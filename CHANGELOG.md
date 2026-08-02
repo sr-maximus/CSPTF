@@ -14,11 +14,11 @@
 - Domain crosswalks and research source register.
 - Machine-readable JSON/CSV catalogs, schemas and validators.
 - Assessment, finding, report, retest and disclosure templates.
-- Spanish paper, specification and LinkedIn publication material.
+- Spanish paper, consolidated specification and release validation material.
 
 ### Known limitations
 
 - Risk weights and thresholds are not empirically calibrated.
 - Mappings are thematic unless explicitly identified as verified.
-- Normative English translation is pending.
+- English and Spanish normative text require expert harmonization.
 - No certification program exists.

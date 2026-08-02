@@ -7,7 +7,7 @@ Foundational bilingual draft with English repository navigation and Spanish publ
 - paper in DOCX and PDF;
 - technical specification in DOCX and PDF;
 - complete repository package;
-- LinkedIn article and post;
+- release validation report and checksums;
 - machine-readable catalogs and schemas.
 
 ## Disclaimer
