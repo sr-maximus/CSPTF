@@ -1,0 +1,33 @@
+{
+  "id": "CSPTF-FIND-0001",
+  "title": "Demo: replay uniqueness is not enforced in a fictional bridge lab",
+  "status": "draft",
+  "affected_assets": [
+    "fictional bridge contract v0.0-test"
+  ],
+  "related_tests": [
+    "CSPTF-TEST-BRG-003"
+  ],
+  "observation": "In the isolated testnet, the same synthetic message identifier was accepted twice after resetting the mock relayer state.",
+  "impact": {
+    "F": 4,
+    "I": 5,
+    "A": 1,
+    "P": 0,
+    "G": 2,
+    "S": 3,
+    "R": 4
+  },
+  "likelihood": {
+    "E": 3,
+    "X": 2,
+    "Q": 3,
+    "M": 4,
+    "C": 3
+  },
+  "risk_score": 38,
+  "risk_band": "Medium",
+  "evidence_level": "E4",
+  "confidence": "C3",
+  "remediation": "Persist message-consumption state in the canonical verification path and add property-based tests for uniqueness across relayer restarts."
+}

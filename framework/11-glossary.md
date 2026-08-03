@@ -1,0 +1,21 @@
+# 11 - Glossary
+
+- **Asset:** anything of value or required to protect value.
+- **Assurance profile:** minimum depth and independence for an assessment.
+- **Bridge:** mechanism that communicates or represents assets/state across chains.
+- **CeFi:** centrally operated digital-asset financial service.
+- **Composability:** ability for components or protocols to interact, often atomically.
+- **Custody:** control and safeguarding of signing authority or digital assets.
+- **DeFi:** financial protocols implemented through decentralized or smart-contract systems.
+- **Evidence:** artifact supporting or refuting a test conclusion.
+- **Finding:** evidence-backed statement of a control failure or risk.
+- **Fork:** isolated copy of chain state used for deterministic testing.
+- **Invariant:** property that must remain true across valid states.
+- **MPC:** multi-party computation used to distribute key operations.
+- **Oracle:** mechanism delivering external data or events to a blockchain system.
+- **Relayer:** off-chain actor that submits messages or transactions.
+- **Rollup:** Layer 2 system that posts data or proofs to a base layer.
+- **Systemic impact:** propagation beyond the directly affected component.
+- **Test case:** authorized procedure for evaluating a security property.
+- **Threat:** potential actor/action/scenario that can cause harm.
+- **Weakness:** condition that enables or amplifies a threat.

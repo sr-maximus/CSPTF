@@ -1,0 +1,9 @@
+claim_id,claim,supporting_refs,status
+CLM-001,AADAPT supplies digital-asset adversary tactics and techniques.,REF-001; REF-002,verified-source
+CLM-002,"OWASP SCS provides smart-contract requirements, weaknesses and testing guidance.",REF-003; REF-004; REF-005,verified-source
+CLM-003,EEA EthTrust v3 provides Solidity review requirements and levels.,REF-006,verified-source
+CLM-004,NIST SP 800-115 supplies a generic assessment process.,REF-007,verified-source
+CLM-005,"Automated smart-contract tools show incomplete and inconsistent detection, requiring expert validation.",REF-019,supported
+CLM-006,Digital-asset assessments require economic and composability analysis.,REF-020; REF-021; REF-022,supported
+CLM-007,Cross-chain systems require multi-domain semantic and monitoring analysis.,REF-025; REF-026; REF-027,supported
+CLM-008,The public-source review did not identify one framework spanning all CSPTF layers.,REF-001 to REF-040; research/gap-analysis.md,bounded-inference

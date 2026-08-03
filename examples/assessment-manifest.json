@@ -1,0 +1,36 @@
+{
+  "framework_version": "0.1.0-draft",
+  "assessment_id": "CSPTF-ASMT-DEMO-0001",
+  "authorization_reference": "DEMO-ROE-TESTNET-001",
+  "system_name": "Fictional Bridge Lab",
+  "scope": {
+    "environment": "local fork and private testnet",
+    "assets": [
+      "synthetic token",
+      "bridge contracts",
+      "test relayer"
+    ],
+    "production_active_testing": false
+  },
+  "profile_by_domain": {
+    "ARC": "AP2",
+    "SCT": "AP3",
+    "BRG": "AP3",
+    "KEY": "AP2",
+    "MON": "AP2",
+    "IRR": "AP2"
+  },
+  "test_matrix": [
+    {
+      "test_id": "CSPTF-TEST-BRG-003",
+      "status": "planned"
+    },
+    {
+      "test_id": "CSPTF-TEST-BRG-010",
+      "status": "planned"
+    }
+  ],
+  "limitations": [
+    "No production chain, customer assets or external relayers are included."
+  ]
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "CSPTF-THRT-GOV-001",
+    "domain_code": "GOV",
+    "title_es": "Pruebas sin autorización efectiva",
+    "description": "Actor externo, interno o automatizado intenta provocar pruebas sin autorización efectiva para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "mandato de evaluación; inventario de activos; matriz RACI; modelo de amenazas",
+    "aadapt_tactics": "Reconnaissance; Resource Development; Initial Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-GOV-002",
+    "domain_code": "GOV",
+    "title_es": "Activos críticos omitidos del alcance",
+    "description": "Actor externo, interno o automatizado intenta provocar activos críticos omitidos del alcance para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "mandato de evaluación; inventario de activos; matriz RACI; modelo de amenazas",
+    "aadapt_tactics": "Reconnaissance; Resource Development; Initial Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-GOV-003",
+    "domain_code": "GOV",
+    "title_es": "Conflictos de interés o independencia insuficiente",
+    "description": "Actor externo, interno o automatizado intenta provocar conflictos de interés o independencia insuficiente para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "mandato de evaluación; inventario de activos; matriz RACI; modelo de amenazas",
+    "aadapt_tactics": "Reconnaissance; Resource Development; Initial Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-GOV-004",
+    "domain_code": "GOV",
+    "title_es": "Cambios no controlados durante el ejercicio",
+    "description": "Actor externo, interno o automatizado intenta provocar cambios no controlados durante el ejercicio para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "mandato de evaluación; inventario de activos; matriz RACI; modelo de amenazas",
+    "aadapt_tactics": "Reconnaissance; Resource Development; Initial Access; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-GOV-005",
+    "domain_code": "GOV",
+    "title_es": "Aceptación de riesgo sin autoridad competente",
+    "description": "Actor externo, interno o automatizado intenta provocar aceptación de riesgo sin autoridad competente para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "mandato de evaluación; inventario de activos; matriz RACI; modelo de amenazas",
+    "aadapt_tactics": "Reconnaissance; Resource Development; Initial Access; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ARC-001",
+    "domain_code": "ARC",
+    "title_es": "Violación de invariantes de protocolo",
+    "description": "Actor externo, interno o automatizado intenta provocar violación de invariantes de protocolo para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "diagramas de arquitectura; invariantes; máquinas de estado; flujos de fondos",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ARC-002",
+    "domain_code": "ARC",
+    "title_es": "Abuso de transiciones de estado",
+    "description": "Actor externo, interno o automatizado intenta provocar abuso de transiciones de estado para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "diagramas de arquitectura; invariantes; máquinas de estado; flujos de fondos",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ARC-003",
+    "domain_code": "ARC",
+    "title_es": "Compromiso de una frontera de confianza",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de una frontera de confianza para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "diagramas de arquitectura; invariantes; máquinas de estado; flujos de fondos",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ARC-004",
+    "domain_code": "ARC",
+    "title_es": "Actualización maliciosa o defectuosa",
+    "description": "Actor externo, interno o automatizado intenta provocar actualización maliciosa o defectuosa para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "diagramas de arquitectura; invariantes; máquinas de estado; flujos de fondos",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ARC-005",
+    "domain_code": "ARC",
+    "title_es": "Fallo en cascada por dependencia externa",
+    "description": "Actor externo, interno o automatizado intenta provocar fallo en cascada por dependencia externa para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "diagramas de arquitectura; invariantes; máquinas de estado; flujos de fondos",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CRY-001",
+    "domain_code": "CRY",
+    "title_es": "Predicción o sesgo de aleatoriedad",
+    "description": "Actor externo, interno o automatizado intenta provocar predicción o sesgo de aleatoriedad para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "algoritmos; parámetros; entropía; nonce",
+    "aadapt_tactics": "Credential Access; Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CRY-002",
+    "domain_code": "CRY",
+    "title_es": "Reutilización de nonce y exposición de clave",
+    "description": "Actor externo, interno o automatizado intenta provocar reutilización de nonce y exposición de clave para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "algoritmos; parámetros; entropía; nonce",
+    "aadapt_tactics": "Credential Access; Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CRY-003",
+    "domain_code": "CRY",
+    "title_es": "Replay de mensajes firmados",
+    "description": "Actor externo, interno o automatizado intenta provocar replay de mensajes firmados para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "algoritmos; parámetros; entropía; nonce",
+    "aadapt_tactics": "Credential Access; Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CRY-004",
+    "domain_code": "CRY",
+    "title_es": "Degradación de algoritmo o parámetro",
+    "description": "Actor externo, interno o automatizado intenta provocar degradación de algoritmo o parámetro para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "algoritmos; parámetros; entropía; nonce",
+    "aadapt_tactics": "Credential Access; Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CRY-005",
+    "domain_code": "CRY",
+    "title_es": "Fallo de validación criptográfica",
+    "description": "Actor externo, interno o automatizado intenta provocar fallo de validación criptográfica para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "algoritmos; parámetros; entropía; nonce",
+    "aadapt_tactics": "Credential Access; Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-KEY-001",
+    "domain_code": "KEY",
+    "title_es": "Robo o exposición de clave privada",
+    "description": "Actor externo, interno o automatizado intenta provocar robo o exposición de clave privada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "hot wallets; cold wallets; HSM; MPC",
+    "aadapt_tactics": "Credential Access; Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-KEY-002",
+    "domain_code": "KEY",
+    "title_es": "Colusión o compromiso de firmantes",
+    "description": "Actor externo, interno o automatizado intenta provocar colusión o compromiso de firmantes para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "hot wallets; cold wallets; HSM; MPC",
+    "aadapt_tactics": "Credential Access; Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-KEY-003",
+    "domain_code": "KEY",
+    "title_es": "Drenaje de hot wallet",
+    "description": "Actor externo, interno o automatizado intenta provocar drenaje de hot wallet para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "hot wallets; cold wallets; HSM; MPC",
+    "aadapt_tactics": "Credential Access; Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-KEY-004",
+    "domain_code": "KEY",
+    "title_es": "Abuso del proceso de recuperación",
+    "description": "Actor externo, interno o automatizado intenta provocar abuso del proceso de recuperación para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "hot wallets; cold wallets; HSM; MPC",
+    "aadapt_tactics": "Credential Access; Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-KEY-005",
+    "domain_code": "KEY",
+    "title_es": "Sustitución de dirección o transacción",
+    "description": "Actor externo, interno o automatizado intenta provocar sustitución de dirección o transacción para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "hot wallets; cold wallets; HSM; MPC",
+    "aadapt_tactics": "Credential Access; Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SCT-001",
+    "domain_code": "SCT",
+    "title_es": "Ejecución no autorizada de funciones críticas",
+    "description": "Actor externo, interno o automatizado intenta provocar ejecución no autorizada de funciones críticas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "código fuente; bytecode; ABI; proxy",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SCT-002",
+    "domain_code": "SCT",
+    "title_es": "Manipulación de contabilidad interna",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación de contabilidad interna para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "código fuente; bytecode; ABI; proxy",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SCT-003",
+    "domain_code": "SCT",
+    "title_es": "Reentrancia o interacción inesperada",
+    "description": "Actor externo, interno o automatizado intenta provocar reentrancia o interacción inesperada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "código fuente; bytecode; ABI; proxy",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SCT-004",
+    "domain_code": "SCT",
+    "title_es": "Colisión de almacenamiento en actualización",
+    "description": "Actor externo, interno o automatizado intenta provocar colisión de almacenamiento en actualización para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "código fuente; bytecode; ABI; proxy",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SCT-005",
+    "domain_code": "SCT",
+    "title_es": "Bloqueo permanente o agotamiento de gas",
+    "description": "Actor externo, interno o automatizado intenta provocar bloqueo permanente o agotamiento de gas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "código fuente; bytecode; ABI; proxy",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DAP-001",
+    "domain_code": "DAP",
+    "title_es": "Manipulación de interfaz para desviar fondos",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación de interfaz para desviar fondos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "frontend; backend BFF; wallet connectors; sesiones",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DAP-002",
+    "domain_code": "DAP",
+    "title_es": "Firma engañosa o autorización excesiva",
+    "description": "Actor externo, interno o automatizado intenta provocar firma engañosa o autorización excesiva para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "frontend; backend BFF; wallet connectors; sesiones",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DAP-003",
+    "domain_code": "DAP",
+    "title_es": "Secuestro de sesión vinculada a wallet",
+    "description": "Actor externo, interno o automatizado intenta provocar secuestro de sesión vinculada a wallet para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "frontend; backend BFF; wallet connectors; sesiones",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DAP-004",
+    "domain_code": "DAP",
+    "title_es": "Sustitución de RPC, red o contrato",
+    "description": "Actor externo, interno o automatizado intenta provocar sustitución de rpc, red o contrato para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "frontend; backend BFF; wallet connectors; sesiones",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Collection; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DAP-005",
+    "domain_code": "DAP",
+    "title_es": "Compromiso de dominio o cadena de distribución",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de dominio o cadena de distribución para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "frontend; backend BFF; wallet connectors; sesiones",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Collection; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-TOK-001",
+    "domain_code": "TOK",
+    "title_es": "Emisión no autorizada o ilimitada",
+    "description": "Actor externo, interno o automatizado intenta provocar emisión no autorizada o ilimitada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "token contracts; NFT collections; metadata; minting",
+    "aadapt_tactics": "Execution; Privilege Escalation; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-TOK-002",
+    "domain_code": "TOK",
+    "title_es": "Robo mediante approval excesivo",
+    "description": "Actor externo, interno o automatizado intenta provocar robo mediante approval excesivo para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "token contracts; NFT collections; metadata; minting",
+    "aadapt_tactics": "Execution; Privilege Escalation; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-TOK-003",
+    "domain_code": "TOK",
+    "title_es": "Manipulación o desaparición de metadata",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación o desaparición de metadata para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "token contracts; NFT collections; metadata; minting",
+    "aadapt_tactics": "Execution; Privilege Escalation; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-TOK-004",
+    "domain_code": "TOK",
+    "title_es": "Incompatibilidad que bloquea activos",
+    "description": "Actor externo, interno o automatizado intenta provocar incompatibilidad que bloquea activos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "token contracts; NFT collections; metadata; minting",
+    "aadapt_tactics": "Execution; Privilege Escalation; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-TOK-005",
+    "domain_code": "TOK",
+    "title_es": "Duplicación o desanclaje de activo wrapped",
+    "description": "Actor externo, interno o automatizado intenta provocar duplicación o desanclaje de activo wrapped para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "token contracts; NFT collections; metadata; minting",
+    "aadapt_tactics": "Execution; Privilege Escalation; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DEF-001",
+    "domain_code": "DEF",
+    "title_es": "Manipulación de precio y extracción de valor",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación de precio y extracción de valor para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "pools; AMM; lending markets; vaults",
+    "aadapt_tactics": "Execution; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DEF-002",
+    "domain_code": "DEF",
+    "title_es": "Insolvencia por liquidaciones fallidas",
+    "description": "Actor externo, interno o automatizado intenta provocar insolvencia por liquidaciones fallidas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "pools; AMM; lending markets; vaults",
+    "aadapt_tactics": "Execution; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DEF-003",
+    "domain_code": "DEF",
+    "title_es": "Ataque de liquidez temporal",
+    "description": "Actor externo, interno o automatizado intenta provocar ataque de liquidez temporal para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "pools; AMM; lending markets; vaults",
+    "aadapt_tactics": "Execution; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DEF-004",
+    "domain_code": "DEF",
+    "title_es": "Drenaje por error de contabilidad de shares",
+    "description": "Actor externo, interno o automatizado intenta provocar drenaje por error de contabilidad de shares para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "pools; AMM; lending markets; vaults",
+    "aadapt_tactics": "Execution; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-DEF-005",
+    "domain_code": "DEF",
+    "title_es": "Captura de gobernanza económica",
+    "description": "Actor externo, interno o automatizado intenta provocar captura de gobernanza económica para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "pools; AMM; lending markets; vaults",
+    "aadapt_tactics": "Execution; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ORA-001",
+    "domain_code": "ORA",
+    "title_es": "Manipulación de feed",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación de feed para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "price feeds; data providers; keepers; relayers",
+    "aadapt_tactics": "Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ORA-002",
+    "domain_code": "ORA",
+    "title_es": "Uso de datos obsoletos",
+    "description": "Actor externo, interno o automatizado intenta provocar uso de datos obsoletos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "price feeds; data providers; keepers; relayers",
+    "aadapt_tactics": "Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ORA-003",
+    "domain_code": "ORA",
+    "title_es": "Compromiso de updater o keeper",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de updater o keeper para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "price feeds; data providers; keepers; relayers",
+    "aadapt_tactics": "Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ORA-004",
+    "domain_code": "ORA",
+    "title_es": "Indisponibilidad coordinada de fuentes",
+    "description": "Actor externo, interno o automatizado intenta provocar indisponibilidad coordinada de fuentes para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "price feeds; data providers; keepers; relayers",
+    "aadapt_tactics": "Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-ORA-005",
+    "domain_code": "ORA",
+    "title_es": "Desviación de mercado de referencia",
+    "description": "Actor externo, interno o automatizado intenta provocar desviación de mercado de referencia para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "price feeds; data providers; keepers; relayers",
+    "aadapt_tactics": "Execution; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-BRG-001",
+    "domain_code": "BRG",
+    "title_es": "Falsificación o replay de mensaje cross-chain",
+    "description": "Actor externo, interno o automatizado intenta provocar falsificación o replay de mensaje cross-chain para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "bridge contracts; validators; relayers; light clients",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-BRG-002",
+    "domain_code": "BRG",
+    "title_es": "Compromiso del quorum de validadores",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso del quorum de validadores para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "bridge contracts; validators; relayers; light clients",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-BRG-003",
+    "domain_code": "BRG",
+    "title_es": "Mint sin respaldo o release duplicado",
+    "description": "Actor externo, interno o automatizado intenta provocar mint sin respaldo o release duplicado para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "bridge contracts; validators; relayers; light clients",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-BRG-004",
+    "domain_code": "BRG",
+    "title_es": "Fallo por reorganización o finalidad",
+    "description": "Actor externo, interno o automatizado intenta provocar fallo por reorganización o finalidad para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "bridge contracts; validators; relayers; light clients",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-BRG-005",
+    "domain_code": "BRG",
+    "title_es": "Inconsistencia lógica entre cadenas",
+    "description": "Actor externo, interno o automatizado intenta provocar inconsistencia lógica entre cadenas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "bridge contracts; validators; relayers; light clients",
+    "aadapt_tactics": "Initial Access; Execution; Credential Access; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-NET-001",
+    "domain_code": "NET",
+    "title_es": "Partición o eclipse de nodos",
+    "description": "Actor externo, interno o automatizado intenta provocar partición o eclipse de nodos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "validators; full nodes; consensus clients; execution clients",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-NET-002",
+    "domain_code": "NET",
+    "title_es": "Compromiso de validador",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de validador para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "validators; full nodes; consensus clients; execution clients",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-NET-003",
+    "domain_code": "NET",
+    "title_es": "Double signing o slashing",
+    "description": "Actor externo, interno o automatizado intenta provocar double signing o slashing para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "validators; full nodes; consensus clients; execution clients",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-NET-004",
+    "domain_code": "NET",
+    "title_es": "Explotación de cliente dominante",
+    "description": "Actor externo, interno o automatizado intenta provocar explotación de cliente dominante para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "validators; full nodes; consensus clients; execution clients",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Lateral Movement; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-NET-005",
+    "domain_code": "NET",
+    "title_es": "Agotamiento de recursos P2P",
+    "description": "Actor externo, interno o automatizado intenta provocar agotamiento de recursos p2p para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "validators; full nodes; consensus clients; execution clients",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Lateral Movement; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-L2-001",
+    "domain_code": "L2",
+    "title_es": "Prueba inválida aceptada",
+    "description": "Actor externo, interno o automatizado intenta provocar prueba inválida aceptada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "sequencers; provers; verifiers; data availability",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-L2-002",
+    "domain_code": "L2",
+    "title_es": "Censura o indisponibilidad del secuenciador",
+    "description": "Actor externo, interno o automatizado intenta provocar censura o indisponibilidad del secuenciador para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "sequencers; provers; verifiers; data availability",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-L2-003",
+    "domain_code": "L2",
+    "title_es": "Pérdida de disponibilidad de datos",
+    "description": "Actor externo, interno o automatizado intenta provocar pérdida de disponibilidad de datos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "sequencers; provers; verifiers; data availability",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-L2-004",
+    "domain_code": "L2",
+    "title_es": "Fraude en puente canónico",
+    "description": "Actor externo, interno o automatizado intenta provocar fraude en puente canónico para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "sequencers; provers; verifiers; data availability",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-L2-005",
+    "domain_code": "L2",
+    "title_es": "Actualización administrativa maliciosa",
+    "description": "Actor externo, interno o automatizado intenta provocar actualización administrativa maliciosa para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "sequencers; provers; verifiers; data availability",
+    "aadapt_tactics": "Execution; Privilege Escalation; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CEX-001",
+    "domain_code": "CEX",
+    "title_es": "Toma de cuenta y retiro fraudulento",
+    "description": "Actor externo, interno o automatizado intenta provocar toma de cuenta y retiro fraudulento para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "accounts; matching engine; OMS; deposit services",
+    "aadapt_tactics": "Initial Access; Credential Access; Lateral Movement; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CEX-002",
+    "domain_code": "CEX",
+    "title_es": "Manipulación o pérdida de órdenes",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación o pérdida de órdenes para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "accounts; matching engine; OMS; deposit services",
+    "aadapt_tactics": "Initial Access; Credential Access; Lateral Movement; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CEX-003",
+    "domain_code": "CEX",
+    "title_es": "Atribución incorrecta de depósitos",
+    "description": "Actor externo, interno o automatizado intenta provocar atribución incorrecta de depósitos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "accounts; matching engine; OMS; deposit services",
+    "aadapt_tactics": "Initial Access; Credential Access; Lateral Movement; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CEX-004",
+    "domain_code": "CEX",
+    "title_es": "Abuso interno de tesorería",
+    "description": "Actor externo, interno o automatizado intenta provocar abuso interno de tesorería para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "accounts; matching engine; OMS; deposit services",
+    "aadapt_tactics": "Initial Access; Credential Access; Lateral Movement; Collection; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-CEX-005",
+    "domain_code": "CEX",
+    "title_es": "Descuadre entre reservas y pasivos",
+    "description": "Actor externo, interno o automatizado intenta provocar descuadre entre reservas y pasivos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "accounts; matching engine; OMS; deposit services",
+    "aadapt_tactics": "Initial Access; Credential Access; Lateral Movement; Collection; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-API-001",
+    "domain_code": "API",
+    "title_es": "Abuso de método RPC administrativo",
+    "description": "Actor externo, interno o automatizado intenta provocar abuso de método rpc administrativo para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "REST APIs; GraphQL; JSON-RPC; WebSocket",
+    "aadapt_tactics": "Reconnaissance; Initial Access; Execution; Credential Access; Collection; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-API-002",
+    "domain_code": "API",
+    "title_es": "Acceso no autorizado a objetos",
+    "description": "Actor externo, interno o automatizado intenta provocar acceso no autorizado a objetos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "REST APIs; GraphQL; JSON-RPC; WebSocket",
+    "aadapt_tactics": "Reconnaissance; Initial Access; Execution; Credential Access; Collection; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-API-003",
+    "domain_code": "API",
+    "title_es": "Exfiltración de datos por API",
+    "description": "Actor externo, interno o automatizado intenta provocar exfiltración de datos por api para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "REST APIs; GraphQL; JSON-RPC; WebSocket",
+    "aadapt_tactics": "Reconnaissance; Initial Access; Execution; Credential Access; Collection; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-API-004",
+    "domain_code": "API",
+    "title_es": "Agotamiento de cuota o recursos",
+    "description": "Actor externo, interno o automatizado intenta provocar agotamiento de cuota o recursos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "REST APIs; GraphQL; JSON-RPC; WebSocket",
+    "aadapt_tactics": "Reconnaissance; Initial Access; Execution; Credential Access; Collection; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-API-005",
+    "domain_code": "API",
+    "title_es": "Falsificación de webhook o evento",
+    "description": "Actor externo, interno o automatizado intenta provocar falsificación de webhook o evento para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "REST APIs; GraphQL; JSON-RPC; WebSocket",
+    "aadapt_tactics": "Reconnaissance; Initial Access; Execution; Credential Access; Collection; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-INF-001",
+    "domain_code": "INF",
+    "title_es": "Compromiso de pipeline de despliegue",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de pipeline de despliegue para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "cloud accounts; Kubernetes; containers; CI/CD",
+    "aadapt_tactics": "Initial Access; Execution; Privilege Escalation; Credential Access; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-INF-002",
+    "domain_code": "INF",
+    "title_es": "Exposición de secreto de producción",
+    "description": "Actor externo, interno o automatizado intenta provocar exposición de secreto de producción para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "cloud accounts; Kubernetes; containers; CI/CD",
+    "aadapt_tactics": "Initial Access; Execution; Privilege Escalation; Credential Access; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-INF-003",
+    "domain_code": "INF",
+    "title_es": "Escape o abuso de contenedor",
+    "description": "Actor externo, interno o automatizado intenta provocar escape o abuso de contenedor para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "cloud accounts; Kubernetes; containers; CI/CD",
+    "aadapt_tactics": "Initial Access; Execution; Privilege Escalation; Credential Access; Lateral Movement; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-INF-004",
+    "domain_code": "INF",
+    "title_es": "Toma de cuenta cloud privilegiada",
+    "description": "Actor externo, interno o automatizado intenta provocar toma de cuenta cloud privilegiada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "cloud accounts; Kubernetes; containers; CI/CD",
+    "aadapt_tactics": "Initial Access; Execution; Privilege Escalation; Credential Access; Lateral Movement; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-INF-005",
+    "domain_code": "INF",
+    "title_es": "Pérdida de infraestructura sin recuperación",
+    "description": "Actor externo, interno o automatizado intenta provocar pérdida de infraestructura sin recuperación para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "cloud accounts; Kubernetes; containers; CI/CD",
+    "aadapt_tactics": "Initial Access; Execution; Privilege Escalation; Credential Access; Lateral Movement; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IAM-001",
+    "domain_code": "IAM",
+    "title_es": "Abuso de administrador o firmante",
+    "description": "Actor externo, interno o automatizado intenta provocar abuso de administrador o firmante para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "workforce identities; service accounts; PAM; break-glass accounts",
+    "aadapt_tactics": "Initial Access; Privilege Escalation; Credential Access; Lateral Movement; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IAM-002",
+    "domain_code": "IAM",
+    "title_es": "Toma de cuenta privilegiada",
+    "description": "Actor externo, interno o automatizado intenta provocar toma de cuenta privilegiada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "workforce identities; service accounts; PAM; break-glass accounts",
+    "aadapt_tactics": "Initial Access; Privilege Escalation; Credential Access; Lateral Movement; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IAM-003",
+    "domain_code": "IAM",
+    "title_es": "Persistencia de excolaborador o tercero",
+    "description": "Actor externo, interno o automatizado intenta provocar persistencia de excolaborador o tercero para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "workforce identities; service accounts; PAM; break-glass accounts",
+    "aadapt_tactics": "Initial Access; Privilege Escalation; Credential Access; Lateral Movement; Collection; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IAM-004",
+    "domain_code": "IAM",
+    "title_es": "Colusión entre funciones críticas",
+    "description": "Actor externo, interno o automatizado intenta provocar colusión entre funciones críticas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "workforce identities; service accounts; PAM; break-glass accounts",
+    "aadapt_tactics": "Initial Access; Privilege Escalation; Credential Access; Lateral Movement; Collection; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IAM-005",
+    "domain_code": "IAM",
+    "title_es": "Uso no autorizado de identidad de máquina",
+    "description": "Actor externo, interno o automatizado intenta provocar uso no autorizado de identidad de máquina para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "workforce identities; service accounts; PAM; break-glass accounts",
+    "aadapt_tactics": "Initial Access; Privilege Escalation; Credential Access; Lateral Movement; Collection; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SUP-001",
+    "domain_code": "SUP",
+    "title_es": "Paquete o dependencia maliciosa",
+    "description": "Actor externo, interno o automatizado intenta provocar paquete o dependencia maliciosa para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "source repositories; dependencies; package registries; compilers",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Defense Evasion; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SUP-002",
+    "domain_code": "SUP",
+    "title_es": "Compromiso de repositorio o maintainer",
+    "description": "Actor externo, interno o automatizado intenta provocar compromiso de repositorio o maintainer para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "source repositories; dependencies; package registries; compilers",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Defense Evasion; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SUP-003",
+    "domain_code": "SUP",
+    "title_es": "Manipulación del pipeline de build",
+    "description": "Actor externo, interno o automatizado intenta provocar manipulación del pipeline de build para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "source repositories; dependencies; package registries; compilers",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Defense Evasion; Impact",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SUP-004",
+    "domain_code": "SUP",
+    "title_es": "Firmware o dispositivo adulterado",
+    "description": "Actor externo, interno o automatizado intenta provocar firmware o dispositivo adulterado para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "source repositories; dependencies; package registries; compilers",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Defense Evasion; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-SUP-005",
+    "domain_code": "SUP",
+    "title_es": "Actualización comprometida distribuida",
+    "description": "Actor externo, interno o automatizado intenta provocar actualización comprometida distribuida para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "source repositories; dependencies; package registries; compilers",
+    "aadapt_tactics": "Resource Development; Initial Access; Execution; Defense Evasion; Impact",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-REG-001",
+    "domain_code": "REG",
+    "title_es": "Exposición de datos KYC",
+    "description": "Actor externo, interno o automatizado intenta provocar exposición de datos kyc para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "PII; KYC records; transaction monitoring; sanctions screening",
+    "aadapt_tactics": "Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-REG-002",
+    "domain_code": "REG",
+    "title_es": "Evasión de monitoreo transaccional",
+    "description": "Actor externo, interno o automatizado intenta provocar evasión de monitoreo transaccional para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "PII; KYC records; transaction monitoring; sanctions screening",
+    "aadapt_tactics": "Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-REG-003",
+    "domain_code": "REG",
+    "title_es": "Transferencia regulada sin datos requeridos",
+    "description": "Actor externo, interno o automatizado intenta provocar transferencia regulada sin datos requeridos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "PII; KYC records; transaction monitoring; sanctions screening",
+    "aadapt_tactics": "Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-REG-004",
+    "domain_code": "REG",
+    "title_es": "Reidentificación o linkability indebida",
+    "description": "Actor externo, interno o automatizado intenta provocar reidentificación o linkability indebida para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "PII; KYC records; transaction monitoring; sanctions screening",
+    "aadapt_tactics": "Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-REG-005",
+    "domain_code": "REG",
+    "title_es": "Retención o uso incompatible de datos",
+    "description": "Actor externo, interno o automatizado intenta provocar retención o uso incompatible de datos para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "PII; KYC records; transaction monitoring; sanctions screening",
+    "aadapt_tactics": "Collection; Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-MON-001",
+    "domain_code": "MON",
+    "title_es": "Actividad maliciosa no detectada",
+    "description": "Actor externo, interno o automatizado intenta provocar actividad maliciosa no detectada para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "SIEM; on-chain analytics; fraud rules; wallet monitoring",
+    "aadapt_tactics": "Defense Evasion; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-MON-002",
+    "domain_code": "MON",
+    "title_es": "Supresión o manipulación de telemetría",
+    "description": "Actor externo, interno o automatizado intenta provocar supresión o manipulación de telemetría para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "SIEM; on-chain analytics; fraud rules; wallet monitoring",
+    "aadapt_tactics": "Defense Evasion; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-MON-003",
+    "domain_code": "MON",
+    "title_es": "Falsos positivos que ocultan señales reales",
+    "description": "Actor externo, interno o automatizado intenta provocar falsos positivos que ocultan señales reales para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "SIEM; on-chain analytics; fraud rules; wallet monitoring",
+    "aadapt_tactics": "Defense Evasion; Collection; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-MON-004",
+    "domain_code": "MON",
+    "title_es": "Fraude coordinado multicanal",
+    "description": "Actor externo, interno o automatizado intenta provocar fraude coordinado multicanal para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "SIEM; on-chain analytics; fraud rules; wallet monitoring",
+    "aadapt_tactics": "Defense Evasion; Collection; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-MON-005",
+    "domain_code": "MON",
+    "title_es": "Respuesta tardía a drenaje o compromiso",
+    "description": "Actor externo, interno o automatizado intenta provocar respuesta tardía a drenaje o compromiso para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "SIEM; on-chain analytics; fraud rules; wallet monitoring",
+    "aadapt_tactics": "Defense Evasion; Collection; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IRR-001",
+    "domain_code": "IRR",
+    "title_es": "Contención tardía de drenaje",
+    "description": "Actor externo, interno o automatizado intenta provocar contención tardía de drenaje para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "incident plans; war room; pause mechanisms; recovery keys",
+    "aadapt_tactics": "Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IRR-002",
+    "domain_code": "IRR",
+    "title_es": "Pérdida de evidencia forense",
+    "description": "Actor externo, interno o automatizado intenta provocar pérdida de evidencia forense para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "incident plans; war room; pause mechanisms; recovery keys",
+    "aadapt_tactics": "Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IRR-003",
+    "domain_code": "IRR",
+    "title_es": "Recuperación con claves comprometidas",
+    "description": "Actor externo, interno o automatizado intenta provocar recuperación con claves comprometidas para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "incident plans; war room; pause mechanisms; recovery keys",
+    "aadapt_tactics": "Defense Evasion; Impact; Fraud",
+    "default_impact": "4",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IRR-004",
+    "domain_code": "IRR",
+    "title_es": "Descuadre de reservas tras incidente",
+    "description": "Actor externo, interno o automatizado intenta provocar descuadre de reservas tras incidente para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "incident plans; war room; pause mechanisms; recovery keys",
+    "aadapt_tactics": "Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-THRT-IRR-005",
+    "domain_code": "IRR",
+    "title_es": "Comunicación errónea que amplifica impacto",
+    "description": "Actor externo, interno o automatizado intenta provocar comunicación errónea que amplifica impacto para obtener acceso, control, beneficio económico, fraude, interrupción o ventaja estratégica.",
+    "assets_at_risk": "incident plans; war room; pause mechanisms; recovery keys",
+    "aadapt_tactics": "Defense Evasion; Impact; Fraud",
+    "default_impact": "3",
+    "status": "draft"
+  }
+]

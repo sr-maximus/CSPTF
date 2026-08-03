@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://csptf.org/schemas/finding.schema.json",
+  "title": "CSPTF Finding",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "id",
+    "title",
+    "status",
+    "affected_assets",
+    "related_tests",
+    "observation",
+    "impact",
+    "likelihood",
+    "risk_score",
+    "risk_band",
+    "evidence_level",
+    "confidence",
+    "remediation"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^CSPTF-FIND-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "validated",
+        "accepted",
+        "remediation-in-progress",
+        "ready-for-retest",
+        "closed",
+        "risk-accepted",
+        "duplicate",
+        "not-applicable",
+        "false-positive",
+        "superseded"
+      ]
+    },
+    "affected_assets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "related_tests": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^CSPTF-TEST-"
+      }
+    },
+    "observation": {
+      "type": "string",
+      "minLength": 20
+    },
+    "impact": {
+      "type": "object"
+    },
+    "likelihood": {
+      "type": "object"
+    },
+    "risk_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "risk_band": {
+      "enum": [
+        "Informational",
+        "Low",
+        "Medium",
+        "High",
+        "Critical",
+        "Systemic"
+      ]
+    },
+    "evidence_level": {
+      "enum": [
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    },
+    "remediation": {
+      "type": "string",
+      "minLength": 20
+    }
+  }
+}

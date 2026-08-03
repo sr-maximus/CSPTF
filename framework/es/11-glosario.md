@@ -1,0 +1,21 @@
+# 11 - Glosario
+
+- **Activo:** elemento de valor o necesario para proteger valor.
+- **Perfil de aseguramiento:** profundidad e independencia mínimas.
+- **Bridge:** mecanismo que comunica o representa activos/estado entre cadenas.
+- **CeFi:** servicio financiero de activos digitales operado centralmente.
+- **Composabilidad:** interacción entre componentes, a menudo atómica.
+- **Custodia:** control y protección de autoridad de firma o activos.
+- **DeFi:** protocolo financiero implementado en sistemas descentralizados.
+- **Evidencia:** artefacto que soporta o refuta una conclusión.
+- **Finding:** afirmación de riesgo respaldada por evidencia.
+- **Fork:** copia aislada del estado de una cadena.
+- **Invariante:** propiedad que permanece verdadera en estados válidos.
+- **MPC:** multi-party computation para distribuir operaciones de clave.
+- **Oráculo:** mecanismo que entrega datos externos a blockchain.
+- **Relayer:** actor off-chain que envía mensajes o transacciones.
+- **Rollup:** Layer 2 que publica datos o pruebas en una base layer.
+- **Impacto sistémico:** propagación más allá del componente afectado.
+- **Test case:** procedimiento autorizado para evaluar una propiedad.
+- **Amenaza:** actor/acción/escenario capaz de causar daño.
+- **Debilidad:** condición que habilita o amplifica una amenaza.

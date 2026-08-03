@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use CSPTF, please cite this repository and the specific release."
+title: "CSPTF: Crypto Security Penetration Testing Framework"
+type: software
+version: "0.1.0-draft"
+date-released: "2026-07-31"
+authors:
+  - family-names: "Peñuela Camacho"
+    given-names: "Edwin Javier"
+repository-code: "https://github.com/sr-maximus/CSPTF"
+url: "https://github.com/sr-maximus/CSPTF"
+license: "Apache-2.0"
+keywords:
+  - blockchain security
+  - cryptocurrency
+  - penetration testing
+  - smart contracts
+  - DeFi
+  - Web3
+  - digital assets
+abstract: >-
+  Open, evidence-informed framework for authorized security assessment and
+  penetration testing across digital-asset ecosystems.

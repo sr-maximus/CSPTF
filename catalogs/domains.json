@@ -1,0 +1,358 @@
+[
+  {
+    "id": "CSPTF-DOM-01",
+    "code": "GOV",
+    "name_es": "Gobernanza, alcance y modelado de amenazas",
+    "name_en": "Governance, Scope and Threat Modeling",
+    "purpose": "Establecer autorización, objetivos, límites, responsables, supuestos, apetito de riesgo y modelos de amenaza antes de ejecutar cualquier prueba.",
+    "assets": [
+      "mandato de evaluación",
+      "inventario de activos",
+      "matriz RACI",
+      "modelo de amenazas",
+      "presupuestos de pérdida",
+      "criterios de detención"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-02",
+    "code": "ARC",
+    "name_es": "Arquitectura y diseño de protocolo",
+    "name_en": "Architecture and Protocol Design",
+    "purpose": "Evaluar fronteras de confianza, invariantes, flujos de valor, estados, dependencias y propiedades de seguridad del sistema completo.",
+    "assets": [
+      "diagramas de arquitectura",
+      "invariantes",
+      "máquinas de estado",
+      "flujos de fondos",
+      "fronteras de confianza",
+      "supuestos de protocolo"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-03",
+    "code": "CRY",
+    "name_es": "Criptografía, aleatoriedad y material criptográfico",
+    "name_en": "Cryptography, Randomness and Cryptographic Material",
+    "purpose": "Verificar selección, implementación, uso y ciclo de vida de primitivas criptográficas, fuentes de entropía, firmas y pruebas.",
+    "assets": [
+      "algoritmos",
+      "parámetros",
+      "entropía",
+      "nonce",
+      "firmas",
+      "hashes",
+      "cifrado",
+      "pruebas de conocimiento cero"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-04",
+    "code": "KEY",
+    "name_es": "Gestión de claves, custodia, wallets y firma",
+    "name_en": "Key Management, Custody, Wallets and Signing",
+    "purpose": "Evaluar generación, almacenamiento, uso, recuperación, rotación y destrucción de claves, junto con políticas de firma y custodia.",
+    "assets": [
+      "hot wallets",
+      "cold wallets",
+      "HSM",
+      "MPC",
+      "seed phrases",
+      "firmantes",
+      "políticas de retiro",
+      "recuperación"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-05",
+    "code": "SCT",
+    "name_es": "Contratos inteligentes y lógica de ejecución",
+    "name_en": "Smart Contracts and Runtime Logic",
+    "purpose": "Evaluar código desplegable, lógica de negocio, control de acceso, interacciones, actualizaciones, gas y propiedades de ejecución.",
+    "assets": [
+      "código fuente",
+      "bytecode",
+      "ABI",
+      "proxy",
+      "roles",
+      "almacenamiento",
+      "eventos",
+      "dependencias on-chain"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-06",
+    "code": "DAP",
+    "name_es": "dApps, frontend, sesiones e integración de wallets",
+    "name_en": "dApps, Frontend, Sessions and Wallet Integration",
+    "purpose": "Evaluar aplicaciones cliente, sesiones, proveedores Web3, solicitudes de firma, resolución de red y controles que conectan usuarios con funciones on-chain.",
+    "assets": [
+      "frontend",
+      "backend BFF",
+      "wallet connectors",
+      "sesiones",
+      "deep links",
+      "firmas EIP-712",
+      "DNS/CDN",
+      "proveedores RPC"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-07",
+    "code": "TOK",
+    "name_es": "Tokens, NFT y ciclo de vida de activos",
+    "name_en": "Tokens, NFTs and Asset Lifecycle",
+    "purpose": "Evaluar emisión, quema, transferencia, metadata, permisos, supply, interoperabilidad y ciclo de vida de activos fungibles y no fungibles.",
+    "assets": [
+      "token contracts",
+      "NFT collections",
+      "metadata",
+      "minting",
+      "burning",
+      "royalties",
+      "allowances",
+      "bridged assets"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-08",
+    "code": "DEF",
+    "name_es": "DeFi y seguridad económica",
+    "name_en": "DeFi and Economic Security",
+    "purpose": "Evaluar solvencia, precios, incentivos, liquidaciones, AMM, préstamos, vaults, MEV y ataques de composición económica.",
+    "assets": [
+      "pools",
+      "AMM",
+      "lending markets",
+      "vaults",
+      "liquidation bots",
+      "governance tokens",
+      "collateral",
+      "fee models"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-09",
+    "code": "ORA",
+    "name_es": "Oráculos, datos externos y automatización",
+    "name_en": "Oracles, External Data and Automation",
+    "purpose": "Evaluar autenticidad, frescura, disponibilidad, agregación y uso seguro de precios, datos, keepers y automatizaciones off-chain.",
+    "assets": [
+      "price feeds",
+      "data providers",
+      "keepers",
+      "relayers",
+      "webhooks",
+      "time sources",
+      "fallbacks",
+      "aggregation logic"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-10",
+    "code": "BRG",
+    "name_es": "Bridges, cross-chain e interoperabilidad",
+    "name_en": "Bridges, Cross-chain and Interoperability",
+    "purpose": "Evaluar bloqueo, mint, burn, release, validación de mensajes, relayers, verificadores, finalidad y coherencia entre dominios.",
+    "assets": [
+      "bridge contracts",
+      "validators",
+      "relayers",
+      "light clients",
+      "message queues",
+      "wrapped assets",
+      "proofs",
+      "source/destination chains"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-11",
+    "code": "NET",
+    "name_es": "Consenso, validadores, nodos y redes P2P",
+    "name_en": "Consensus, Validators, Nodes and P2P Networks",
+    "purpose": "Evaluar seguridad del consenso, operación de nodos, validadores, clientes, mempool, P2P, sincronización y exposición de interfaces.",
+    "assets": [
+      "validators",
+      "full nodes",
+      "consensus clients",
+      "execution clients",
+      "mempool",
+      "P2P network",
+      "genesis/config",
+      "peer discovery"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-12",
+    "code": "L2",
+    "name_es": "Layer 2, rollups, secuenciadores y disponibilidad de datos",
+    "name_en": "Layer 2, Rollups, Sequencers and Data Availability",
+    "purpose": "Evaluar pruebas, secuenciación, publicación de datos, puentes canónicos, ventanas de desafío, escape hatches y dependencias L1/L2.",
+    "assets": [
+      "sequencers",
+      "provers",
+      "verifiers",
+      "data availability",
+      "canonical bridge",
+      "fraud proofs",
+      "validity proofs",
+      "batch inbox"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-13",
+    "code": "CEX",
+    "name_es": "Exchanges centralizados, brokers e infraestructura de mercado",
+    "name_en": "Centralized Exchanges, Brokers and Market Infrastructure",
+    "purpose": "Evaluar onboarding, cuentas, trading, depósitos, retiros, matching, custodia, reservas, fraude y procesos operacionales de plataformas centralizadas.",
+    "assets": [
+      "accounts",
+      "matching engine",
+      "OMS",
+      "deposit services",
+      "withdrawal services",
+      "custody",
+      "market data",
+      "treasury"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-14",
+    "code": "API",
+    "name_es": "APIs, RPC, WebSocket y plataformas para desarrolladores",
+    "name_en": "APIs, RPC, WebSocket and Developer Platforms",
+    "purpose": "Evaluar autenticación, autorización, exposición, rate limiting, seguridad de métodos, datos y disponibilidad en interfaces programáticas.",
+    "assets": [
+      "REST APIs",
+      "GraphQL",
+      "JSON-RPC",
+      "WebSocket",
+      "API keys",
+      "developer portals",
+      "webhooks",
+      "indexers"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-15",
+    "code": "INF",
+    "name_es": "Cloud, contenedores, CI/CD e infraestructura",
+    "name_en": "Cloud, Containers, CI/CD and Infrastructure",
+    "purpose": "Evaluar la infraestructura que construye, despliega y opera servicios de activos digitales, incluyendo secretos, IaC, imágenes y pipelines.",
+    "assets": [
+      "cloud accounts",
+      "Kubernetes",
+      "containers",
+      "CI/CD",
+      "IaC",
+      "artifact registries",
+      "secrets managers",
+      "observability stack"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-16",
+    "code": "IAM",
+    "name_es": "Identidad, acceso privilegiado y riesgo interno",
+    "name_en": "Identity, Privileged Access and Insider Risk",
+    "purpose": "Evaluar identidades humanas y de máquina, acceso privilegiado, segregación, revisiones, monitoreo y controles frente a fraude o abuso interno.",
+    "assets": [
+      "workforce identities",
+      "service accounts",
+      "PAM",
+      "break-glass accounts",
+      "admin consoles",
+      "signer roles",
+      "vendors",
+      "joiner-mover-leaver"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-17",
+    "code": "SUP",
+    "name_es": "Cadena de suministro, dependencias e integridad de construcción",
+    "name_en": "Supply Chain, Dependencies and Build Integrity",
+    "purpose": "Evaluar componentes, repositorios, compiladores, paquetes, artefactos, proveedores y procedencia del software y firmware.",
+    "assets": [
+      "source repositories",
+      "dependencies",
+      "package registries",
+      "compilers",
+      "build runners",
+      "artifacts",
+      "firmware",
+      "vendors"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-18",
+    "code": "REG",
+    "name_es": "Privacidad, cumplimiento, AML/KYT y protección de datos",
+    "name_en": "Privacy, Compliance, AML/KYT and Data Protection",
+    "purpose": "Evaluar obligaciones aplicables, minimización, trazabilidad, privacidad, controles AML/KYT y tratamiento seguro de datos personales y financieros.",
+    "assets": [
+      "PII",
+      "KYC records",
+      "transaction monitoring",
+      "sanctions screening",
+      "travel rule data",
+      "audit records",
+      "privacy notices",
+      "retention systems"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-19",
+    "code": "MON",
+    "name_es": "Monitoreo, detección, analítica on-chain y fraude",
+    "name_en": "Monitoring, Detection, On-chain Analytics and Fraud",
+    "purpose": "Evaluar cobertura, calidad, correlación y respuesta de telemetría off-chain/on-chain frente a fraude, compromiso y anomalías económicas.",
+    "assets": [
+      "SIEM",
+      "on-chain analytics",
+      "fraud rules",
+      "wallet monitoring",
+      "node logs",
+      "contract events",
+      "alerting",
+      "case management"
+    ],
+    "status": "draft"
+  },
+  {
+    "id": "CSPTF-DOM-20",
+    "code": "IRR",
+    "name_es": "Respuesta a incidentes, recuperación, reservas y resiliencia",
+    "name_en": "Incident Response, Recovery, Reserves and Resilience",
+    "purpose": "Evaluar preparación, contención, recuperación, reconciliación, comunicación, evidencia, reservas y continuidad ante incidentes de activos digitales.",
+    "assets": [
+      "incident plans",
+      "war room",
+      "pause mechanisms",
+      "recovery keys",
+      "reserve ledgers",
+      "communications",
+      "forensic data",
+      "business continuity"
+    ],
+    "status": "draft"
+  }
+]

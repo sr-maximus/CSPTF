@@ -1,0 +1,16 @@
+site_name: CSPTF
+site_description: Crypto Security Penetration Testing Framework
+repo_url: https://github.com/sr-maximus/CSPTF
+repo_name: sr-maximus/CSPTF
+theme:
+  name: readthedocs
+nav:
+  - Home: index.md
+  - Methodology: methodology.md
+  - Domains: domains.md
+  - Safe testing: safety.md
+  - Research: research.md
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
