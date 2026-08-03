@@ -16,8 +16,10 @@ Tests: 240
 Threats: 100
 Weaknesses: 100
 Unique IDs: 620
-Unit tests: 3 passed
+Tooling-register entries: 22
+Unit tests: 5 passed
 AP2 checklist: 140 tests
+AP2 evidence matrix: 140 tests
 ```
 
 Commands:
@@ -26,7 +28,11 @@ Commands:
 python tools/validate_catalogs.py
 python -m unittest discover -s tests
 python tools/generate_checklist.py --profile AP2 --output build/checklist-ap2.csv
+python tools/generate_evidence_matrix.py --profile AP2 --output build/evidence-matrix-ap2.csv
 ```
+
+The validation suite now also checks source-register integrity, claim-reference
+integrity, tooling-register domain coverage and AP2 evidence-matrix scope.
 
 ## Risk-model reproducibility check
 
@@ -71,3 +77,5 @@ Both DOCX files were converted through LibreOffice and rasterized. Every rendere
 - Catalog completeness requires independent expert review and authorized case studies.
 - No CSPTF certification scheme exists in v0.1.
 - Chain- and protocol-specific annexes remain future work.
+- Tooling examples are non-exclusive references; tool output still requires
+  authorization, expert triage, reproducibility review and evidence limits.

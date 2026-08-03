@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="950" viewBox="0 0 1600 950" role="img" aria-labelledby="title desc">
+  <title id="title">CSPTF framework architecture</title>
+  <desc id="desc">Professional architecture diagram showing how specialist sources feed the CSPTF core, catalogs, authorized assessment workflow, tooling, evidence, risk decisions, and outputs.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .panel { fill: #ffffff; stroke: #c7d2df; stroke-width: 2; rx: 8; }
+      .panel-soft { fill: #eef5f6; stroke: #b6ccd1; stroke-width: 2; rx: 8; }
+      .panel-warm { fill: #fff6e8; stroke: #e0bb78; stroke-width: 2; rx: 8; }
+      .panel-risk { fill: #fceeee; stroke: #d9a0a0; stroke-width: 2; rx: 8; }
+      .title { font: 700 34px Arial, Helvetica, sans-serif; fill: #17212b; }
+      .subtitle { font: 400 17px Arial, Helvetica, sans-serif; fill: #52616f; }
+      .section { font: 700 18px Arial, Helvetica, sans-serif; fill: #17212b; }
+      .label { font: 700 15px Arial, Helvetica, sans-serif; fill: #1f2d3a; }
+      .small { font: 400 13px Arial, Helvetica, sans-serif; fill: #52616f; }
+      .tiny { font: 400 12px Arial, Helvetica, sans-serif; fill: #607080; }
+      .badge { fill: #17324d; }
+      .badge2 { fill: #0e6f6d; }
+      .badge3 { fill: #9b5b12; }
+      .badge4 { fill: #8f2e3a; }
+      .badgeText { font: 700 12px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .arrow { fill: none; stroke: #5b6f81; stroke-width: 2.2; marker-end: url(#arrowhead); }
+      .arrow-soft { fill: none; stroke: #8aa0b3; stroke-width: 1.7; marker-end: url(#arrowheadSoft); }
+      .spine { fill: none; stroke: #17324d; stroke-width: 3; }
+      .dash { fill: none; stroke: #7d92a6; stroke-width: 1.6; stroke-dasharray: 6 6; }
+      .number { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#5b6f81"/>
+    </marker>
+    <marker id="arrowheadSoft" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M 1 1 L 9 5 L 1 9 z" fill="#8aa0b3"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1600" height="950"/>
+
+  <text x="60" y="62" class="title">CSPTF Operating Architecture</text>
+  <text x="60" y="93" class="subtitle">From specialist sources to authorized testing, evidence, risk decisions, remediation, and continuous assurance.</text>
+
+  <rect x="60" y="130" width="285" height="635" class="panel"/>
+  <text x="85" y="166" class="section">1. Specialist Inputs</text>
+  <text x="85" y="192" class="small">Retained as traceable references, not replaced.</text>
+  <g transform="translate(85 225)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Threat behavior</text>
+    <text x="16" y="39" class="tiny">MITRE AADAPT, ATT&amp;CK, D3FEND</text>
+  </g>
+  <g transform="translate(85 291)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Smart contract assurance</text>
+    <text x="16" y="39" class="tiny">OWASP SCSVS, SCSTG, SCWE</text>
+  </g>
+  <g transform="translate(85 357)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Solidity review levels</text>
+    <text x="16" y="39" class="tiny">EEA EthTrust Security Levels</text>
+  </g>
+  <g transform="translate(85 423)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Assessment discipline</text>
+    <text x="16" y="39" class="tiny">NIST SP 800-115, CSF, SSDF</text>
+  </g>
+  <g transform="translate(85 489)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Software supply chain</text>
+    <text x="16" y="39" class="tiny">SLSA, CycloneDX, SBOM evidence</text>
+  </g>
+  <g transform="translate(85 555)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Crypto and protocol specs</text>
+    <text x="16" y="39" class="tiny">BIP, EIP, Yellow Paper, NISTIR</text>
+  </g>
+  <g transform="translate(85 621)">
+    <rect width="235" height="48" class="panel-soft"/>
+    <text x="16" y="22" class="label">Public incident research</text>
+    <text x="16" y="39" class="tiny">MEV, flash loans, bridges, dApps</text>
+  </g>
+
+  <rect x="395" y="130" width="360" height="635" class="panel"/>
+  <text x="420" y="166" class="section">2. CSPTF Core</text>
+  <text x="420" y="192" class="small">Rules that turn references into a usable method.</text>
+  <g transform="translate(430 226)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge"/>
+    <text x="23" y="34" class="number">A</text>
+    <text x="58" y="24" class="label">Authorization and RoE</text>
+    <text x="58" y="42" class="tiny">Scope, safety gates, stop authority</text>
+  </g>
+  <g transform="translate(430 300)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge"/>
+    <text x="23" y="34" class="number">B</text>
+    <text x="58" y="24" class="label">Assessment lifecycle</text>
+    <text x="58" y="42" class="tiny">Model, select, test, report, retest</text>
+  </g>
+  <g transform="translate(430 374)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge"/>
+    <text x="23" y="34" class="number">C</text>
+    <text x="58" y="24" class="label">Assurance profiles</text>
+    <text x="58" y="42" class="tiny">AP1 baseline to AP4 systemic</text>
+  </g>
+  <g transform="translate(430 448)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge2"/>
+    <text x="23" y="34" class="number">D</text>
+    <text x="58" y="24" class="label">Evidence and confidence</text>
+    <text x="58" y="42" class="tiny">E0-E5 evidence, C1-C4 confidence</text>
+  </g>
+  <g transform="translate(430 522)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge4"/>
+    <text x="23" y="34" class="number">E</text>
+    <text x="58" y="24" class="label">Risk model</text>
+    <text x="58" y="42" class="tiny">Financial, systemic, irreversible impact</text>
+  </g>
+  <g transform="translate(430 596)">
+    <rect x="0" y="0" width="290" height="55" class="panel-warm"/>
+    <circle cx="28" cy="28" r="16" class="badge3"/>
+    <text x="23" y="34" class="number">F</text>
+    <text x="58" y="24" class="label">Conformance and reporting</text>
+    <text x="58" y="42" class="tiny">Findings, exceptions, retest, disclosure</text>
+  </g>
+
+  <rect x="805" y="130" width="330" height="278" class="panel"/>
+  <text x="830" y="166" class="section">3. Machine-Readable Catalogs</text>
+  <text x="830" y="192" class="small">The stable backbone for scoping and execution.</text>
+  <g transform="translate(830 225)">
+    <rect width="130" height="56" class="panel-soft"/>
+    <text x="18" y="24" class="label">20 domains</text>
+    <text x="18" y="43" class="tiny">system scope</text>
+  </g>
+  <g transform="translate(980 225)">
+    <rect width="130" height="56" class="panel-soft"/>
+    <text x="18" y="24" class="label">160 controls</text>
+    <text x="18" y="43" class="tiny">requirements</text>
+  </g>
+  <g transform="translate(830 300)">
+    <rect width="130" height="56" class="panel-soft"/>
+    <text x="18" y="24" class="label">240 tests</text>
+    <text x="18" y="43" class="tiny">authorized cases</text>
+  </g>
+  <g transform="translate(980 300)">
+    <rect width="130" height="56" class="panel-soft"/>
+    <text x="18" y="24" class="label">200 risks</text>
+    <text x="18" y="43" class="tiny">threats + weaknesses</text>
+  </g>
+
+  <rect x="805" y="448" width="330" height="317" class="panel"/>
+  <text x="830" y="484" class="section">4. Tooling and Evidence Layer</text>
+  <text x="830" y="510" class="small">Tools are mapped to activities and evidence types.</text>
+  <g transform="translate(830 540)">
+    <rect width="280" height="34" class="panel-soft"/>
+    <text x="14" y="22" class="small">Static analysis, SAST, SCA, SBOM</text>
+  </g>
+  <g transform="translate(830 586)">
+    <rect width="280" height="34" class="panel-soft"/>
+    <text x="14" y="22" class="small">Fuzzing, invariants, fork simulation</text>
+  </g>
+  <g transform="translate(830 632)">
+    <rect width="280" height="34" class="panel-soft"/>
+    <text x="14" y="22" class="small">DAST, API, cloud, IaC, identity review</text>
+  </g>
+  <g transform="translate(830 678)">
+    <rect width="280" height="34" class="panel-soft"/>
+    <text x="14" y="22" class="small">Telemetry, detection rules, incident drills</text>
+  </g>
+  <text x="830" y="739" class="tiny">Scanner output alone is evidence, not a conclusion.</text>
+
+  <rect x="1185" y="130" width="355" height="635" class="panel"/>
+  <text x="1210" y="166" class="section">5. Authorized Assessment Workflow</text>
+  <text x="1210" y="192" class="small">Every phase produces evidence or an explicit limitation.</text>
+  <g transform="translate(1215 225)">
+    <circle cx="15" cy="15" r="15" class="badge"/>
+    <text x="11" y="21" class="number">1</text>
+    <text x="42" y="13" class="label">Authorize and scope</text>
+    <text x="42" y="31" class="tiny">RoE, budgets, assets, stop conditions</text>
+  </g>
+  <g transform="translate(1215 290)">
+    <circle cx="15" cy="15" r="15" class="badge"/>
+    <text x="11" y="21" class="number">2</text>
+    <text x="42" y="13" class="label">Model the system</text>
+    <text x="42" y="31" class="tiny">trust boundaries, flows, invariants</text>
+  </g>
+  <g transform="translate(1215 355)">
+    <circle cx="15" cy="15" r="15" class="badge"/>
+    <text x="11" y="21" class="number">3</text>
+    <text x="42" y="13" class="label">Tailor controls and tests</text>
+    <text x="42" y="31" class="tiny">domains, profile, matrix, tools</text>
+  </g>
+  <g transform="translate(1215 420)">
+    <circle cx="15" cy="15" r="15" class="badge2"/>
+    <text x="11" y="21" class="number">4</text>
+    <text x="42" y="13" class="label">Collect evidence</text>
+    <text x="42" y="31" class="tiny">documents, configs, logs, hashes</text>
+  </g>
+  <g transform="translate(1215 485)">
+    <circle cx="15" cy="15" r="15" class="badge2"/>
+    <text x="11" y="21" class="number">5</text>
+    <text x="42" y="13" class="label">Validate safely</text>
+    <text x="42" y="31" class="tiny">staging, fork, testnet, lab</text>
+  </g>
+  <g transform="translate(1215 550)">
+    <circle cx="15" cy="15" r="15" class="badge4"/>
+    <text x="11" y="21" class="number">6</text>
+    <text x="42" y="13" class="label">Score and explain risk</text>
+    <text x="42" y="31" class="tiny">impact, likelihood, confidence</text>
+  </g>
+  <g transform="translate(1215 615)">
+    <circle cx="15" cy="15" r="15" class="badge3"/>
+    <text x="11" y="21" class="number">7</text>
+    <text x="42" y="13" class="label">Remediate and retest</text>
+    <text x="42" y="31" class="tiny">closure evidence or residual risk</text>
+  </g>
+  <g transform="translate(1215 680)">
+    <circle cx="15" cy="15" r="15" class="badge3"/>
+    <text x="11" y="21" class="number">8</text>
+    <text x="42" y="13" class="label">Continuously assure</text>
+    <text x="42" y="31" class="tiny">change triggers and monitoring</text>
+  </g>
+
+  <rect x="60" y="805" width="1480" height="96" class="panel-risk"/>
+  <text x="85" y="842" class="section">Decision Outputs</text>
+  <text x="85" y="870" class="small">Assessment plan, profile-tailored checklist, evidence matrix, findings, risk rationale, reports and remediation plan.</text>
+  <text x="85" y="892" class="tiny">Retest records and disclosure packages preserve authorization, source, timestamp, environment, hash or location, limitations, reviewer and confidence.</text>
+
+  <path d="M 345 447 L 390 447" class="arrow"/>
+  <path d="M 755 268 L 800 268" class="arrow"/>
+  <path d="M 970 408 L 970 442" class="arrow-soft"/>
+  <path d="M 1135 447 L 1180 447" class="arrow"/>
+  <path d="M 1362 765 L 1362 800" class="arrow"/>
+  <path d="M 575 765 L 575 800" class="arrow-soft"/>
+  <path d="M 970 765 L 970 800" class="arrow-soft"/>
+
+  <path d="M 755 652 C 785 690, 785 735, 755 764" class="dash"/>
+  <text x="620" y="724" class="tiny">catalogs refine tests</text>
+  <text x="620" y="742" class="tiny">evidence refines risk</text>
+</svg>

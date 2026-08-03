@@ -7,3 +7,5 @@ The research directory records how CSPTF was derived and how it should be valida
 - `validation-plan.md`: expert, empirical and reliability validation.
 - `source-register.csv/json`: primary standards and papers.
 - `claims-evidence.csv`: traceability for major design claims.
+- `tooling-register.csv`: non-exclusive tool examples, official references,
+  applicable domains and evidence limits.

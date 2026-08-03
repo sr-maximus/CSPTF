@@ -1,0 +1,38 @@
+{
+  "evidence_id": "CSPTF-EVID-DEMO-0001",
+  "assessment_id": "CSPTF-ASMT-DEMO-0001",
+  "related_test": "CSPTF-TEST-BRG-003",
+  "related_control": "CSPTF-CTRL-BRG-002",
+  "source": "fictional bridge lab fork",
+  "owner": "demo security team",
+  "collected_at": "2026-07-31T14:20:00-05:00",
+  "environment": {
+    "type": "local fork",
+    "chain_id": 31337,
+    "fork_block": 19000000,
+    "component_version": "fictional-bridge-lab v0.0-test"
+  },
+  "tooling": [
+    {
+      "tool": "Foundry Anvil",
+      "purpose": "local fork and replay harness",
+      "version": "record exact version in real assessments"
+    },
+    {
+      "tool": "custom replay test",
+      "purpose": "validate duplicate message rejection",
+      "version": "commit hash required in real assessments"
+    }
+  ],
+  "artifact": {
+    "location": "examples/test-record-bridge-replay.md",
+    "sha256": "demo-placeholder-hash"
+  },
+  "evidence_level": "E4",
+  "confidence": "C3",
+  "limitations": [
+    "Fictional example only; no live bridge, real relayer, real token or customer asset.",
+    "The hash is a placeholder and must be replaced with the artifact hash in a real assessment."
+  ],
+  "reviewer_decision": "The fictional replay condition is treated as a failed control in the demo environment only."
+}

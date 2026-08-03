@@ -10,6 +10,14 @@ Foundational bilingual draft with English repository navigation and Spanish publ
 - release validation report and checksums;
 - machine-readable catalogs and schemas.
 
+## Operational additions after initial publication
+
+- CSPTF operating architecture diagram.
+- Tooling and evidence guidance for assessment activities.
+- Tooling register with official references and evidence limits.
+- AP2 evidence matrix generated from the catalog.
+- Safe fictional evidence and test-record examples.
+
 ## Disclaimer
 
 This release is not a certification and its scoring model is not yet calibrated.

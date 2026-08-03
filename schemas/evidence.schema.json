@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://csptf.org/schemas/evidence.schema.json",
+  "title": "CSPTF Evidence Record",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "evidence_id",
+    "assessment_id",
+    "related_test",
+    "related_control",
+    "source",
+    "owner",
+    "collected_at",
+    "environment",
+    "tooling",
+    "artifact",
+    "evidence_level",
+    "confidence",
+    "limitations",
+    "reviewer_decision"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^CSPTF-EVID-[A-Z0-9-]+-[0-9]{4}$"
+    },
+    "assessment_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "related_test": {
+      "type": "string",
+      "pattern": "^CSPTF-TEST-[A-Z0-9]{2,4}-[0-9]{3}$"
+    },
+    "related_control": {
+      "type": "string",
+      "pattern": "^CSPTF-CTRL-[A-Z0-9]{2,4}-[0-9]{3}$"
+    },
+    "source": {
+      "type": "string",
+      "minLength": 3
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 3
+    },
+    "collected_at": {
+      "type": "string"
+    },
+    "environment": {
+      "type": "object"
+    },
+    "tooling": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 1
+    },
+    "artifact": {
+      "type": "object"
+    },
+    "evidence_level": {
+      "enum": [
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reviewer_decision": {
+      "type": "string",
+      "minLength": 10
+    }
+  }
+}

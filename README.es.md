@@ -40,7 +40,17 @@ Los marcos existentes son sólidos, pero normalmente profundizan en una capa esp
 python tools/validate_catalogs.py
 python tools/query_catalog.py --domain BRG --kind tests
 python tools/generate_checklist.py --profile AP2 --output build/checklist-ap2.csv
+python tools/generate_evidence_matrix.py --profile AP2 --output build/evidence-matrix-ap2.csv
 ```
+
+## Arquitectura operativa
+
+![Arquitectura operativa CSPTF](docs/assets/csptf-framework-architecture.svg)
+
+CSPTF conecta fuentes especializadas, ciclo de evaluacion con autorizacion,
+catalogos legibles por maquina, guia de herramientas, niveles de evidencia,
+riesgo y salidas de evaluacion. Ver [`docs/architecture.md`](docs/architecture.md)
+y [`framework/es/12-herramientas-evidencia.md`](framework/es/12-herramientas-evidencia.md).
 
 Lectura recomendada:
 
@@ -48,7 +58,8 @@ Lectura recomendada:
 2. [`framework/es/02-reglas-compromiso.md`](framework/es/02-reglas-compromiso.md)
 3. [`framework/es/03-ciclo.md`](framework/es/03-ciclo.md)
 4. [`framework/es/05-riesgo.md`](framework/es/05-riesgo.md)
-5. [`domains/README.md`](domains/README.md)
+5. [`framework/es/12-herramientas-evidencia.md`](framework/es/12-herramientas-evidencia.md)
+6. [`domains/README.md`](domains/README.md)
 
 ## Documentos de publicación
 
@@ -56,6 +67,7 @@ Lectura recomendada:
 - [Paper técnico editable en Word](paper/CSPTF_Paper_ES.docx)
 - [Especificación consolidada en PDF](paper/CSPTF_Specification_v0.1_ES.pdf)
 - [Especificación consolidada editable en Word](paper/CSPTF_Specification_v0.1_ES.docx)
+- [Matriz AP2 de evidencia y herramientas](build/evidence-matrix-ap2.csv)
 - [Informe de validación de la release](publication/validation-report-v0.1.0-draft.md)
 
 ## Uso responsable

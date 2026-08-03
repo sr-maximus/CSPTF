@@ -6,7 +6,9 @@ theme:
   name: readthedocs
 nav:
   - Home: index.md
+  - Architecture: architecture.md
   - Methodology: methodology.md
+  - Tooling and evidence: tooling.md
   - Domains: domains.md
   - Safe testing: safety.md
   - Research: research.md

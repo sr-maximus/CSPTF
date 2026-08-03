@@ -8,4 +8,4 @@ Términos normativos:
 - **DEBERÍA / NO DEBERÍA:** esperado salvo excepción documentada.
 - **PUEDE:** opcional.
 
-Orden de lectura: carta, alcance, Rules of Engagement, ciclo, perfiles, evidencia, riesgo, identificadores, findings, conformidad, reporte y glosario.
+Orden de lectura: carta, alcance, Rules of Engagement, ciclo, perfiles, evidencia, riesgo, herramientas, identificadores, findings, conformidad, reporte y glosario.

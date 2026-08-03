@@ -14,6 +14,7 @@ env/
 # Build and generated local output
 build/*
 !build/checklist-ap2.csv
+!build/evidence-matrix-ap2.csv
 site/
 dist/
 *.tmp

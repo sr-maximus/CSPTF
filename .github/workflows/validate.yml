@@ -15,3 +15,5 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python tools/validate_catalogs.py
       - run: python -m unittest discover -s tests
+      - run: python tools/generate_checklist.py --profile AP2 --output build/checklist-ap2.csv
+      - run: python tools/generate_evidence_matrix.py --profile AP2 --output build/evidence-matrix-ap2.csv

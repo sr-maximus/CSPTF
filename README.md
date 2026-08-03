@@ -53,10 +53,20 @@ research/       Literature method, gap analysis, source register and validation 
 paper/          Publishable Spanish paper and technical specification
 templates/      Rules of engagement, findings, reports, retest and disclosure
 schemas/        Machine-readable JSON schemas
-tools/          Catalog validator and query/checklist utilities
+tools/          Catalog validator, query, checklist and evidence-matrix utilities
 examples/       Safe example assessment package
 publication/    Release notes, validation report and checksums
 ```
+
+## Operating architecture
+
+![CSPTF operating architecture](docs/assets/csptf-framework-architecture.svg)
+
+CSPTF links specialist sources, an authorization-first lifecycle,
+machine-readable catalogs, tooling guidance, evidence levels, risk scoring and
+assessment outputs into one traceable workflow. See
+[`docs/architecture.md`](docs/architecture.md) and
+[`framework/12-tools-and-evidence.md`](framework/12-tools-and-evidence.md).
 
 ## Publication artifacts
 
@@ -64,6 +74,7 @@ publication/    Release notes, validation report and checksums
 - [Spanish technical paper (DOCX)](paper/CSPTF_Paper_ES.docx)
 - [Spanish consolidated specification (PDF)](paper/CSPTF_Specification_v0.1_ES.pdf)
 - [Spanish consolidated specification (DOCX)](paper/CSPTF_Specification_v0.1_ES.docx)
+- [AP2 evidence matrix](build/evidence-matrix-ap2.csv)
 - [Release validation report](publication/validation-report-v0.1.0-draft.md)
 
 ## Getting started
@@ -72,6 +83,7 @@ publication/    Release notes, validation report and checksums
 python tools/validate_catalogs.py
 python tools/query_catalog.py --domain BRG --kind tests
 python tools/generate_checklist.py --profile AP2 --output build/checklist-ap2.csv
+python tools/generate_evidence_matrix.py --profile AP2 --output build/evidence-matrix-ap2.csv
 ```
 
 Read these first:
@@ -80,7 +92,8 @@ Read these first:
 2. [`framework/02-rules-of-engagement.md`](framework/02-rules-of-engagement.md)
 3. [`framework/03-assessment-lifecycle.md`](framework/03-assessment-lifecycle.md)
 4. [`framework/05-risk-scoring.md`](framework/05-risk-scoring.md)
-5. [`domains/README.md`](domains/README.md)
+5. [`framework/12-tools-and-evidence.md`](framework/12-tools-and-evidence.md)
+6. [`domains/README.md`](domains/README.md)
 
 ## Assurance profiles
 

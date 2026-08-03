@@ -20,7 +20,7 @@ def main() -> int:
     out=Path(args.output); out.parent.mkdir(parents=True,exist_ok=True)
     fields=["id","domain_code","title_es","minimum_profile","related_controls","status","result","evidence_id","finding_id","notes"]
     with out.open("w",encoding="utf-8",newline="") as f:
-        w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
+        w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n"); w.writeheader()
         for t in selected:
             w.writerow({**{k:t.get(k,"") for k in fields},"result":"not-tested"})
     print(f"Wrote {len(selected)} tests to {out}")

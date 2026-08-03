@@ -16,5 +16,6 @@ Order of use:
 3. Lifecycle
 4. Assurance profile
 5. Evidence and risk
-6. Domain/test selection
-7. Findings, reporting, remediation and retest
+6. Tooling and evidence matrix
+7. Domain/test selection
+8. Findings, reporting, remediation and retest
